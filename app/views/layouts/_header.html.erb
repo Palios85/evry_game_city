@@ -1,9 +1,21 @@
-<header class="navbar navbar-fixed-top navbar-inverse">
-  <div class="navbar-inner">
-    <div class="container">
-      TEXTE
-    </div>
-  </div>
 
-
-</header>
+    <header class="navbar navbar-fixed-top">
+      <div class="navbar-inner">
+        <div class="container">
+          <a class="btn btn-navbar" data-target=".nav-collapse" data-toggle="collapse">
+            <!--span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span-->
+          </a>
+          <a class="brand" href="#">EvryGameCity</a>
+          <div class="container nav-collapse">
+            <ul class="nav">
+              <li><%= link_to "Partenaires", "/path1"  %></li>
+              <li><%= link_to "Informations", "/path2"  %></li>
+              <li><%= link_to "Jeux", "/path3"  %></li>
+              <li><%= link_to "Contacts", "/path3"  %></li>
+            </ul>
+          </div><!--/.nav-collapse -->
+        </div>
+      </div>
+    </header>
