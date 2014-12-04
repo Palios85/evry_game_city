@@ -4,12 +4,12 @@
 
 #left-mosaique {
   #background-color: grey;
-  height: 200px;
+  //height: 200px;
 }
 
 #right-mosaique {
   background-color: grey;
-  height: 200px;
+  //height: 200px;
 }
 
 .mosaique {
@@ -27,4 +27,15 @@
   //max-width: 350px;
   background-color: #404040;
 }
-
+.twitter {
+  height: 350px;
+  background-color: #505050;
+}
+.instagram {
+  height: 350px;
+  background-color: #606060;
+}
+.billeterie {
+  height: 100px;
+  background-color: #707070;
+}
