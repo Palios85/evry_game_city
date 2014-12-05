@@ -2,6 +2,11 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+.anchor {
+  margin-top: -60px;
+  float: left; 
+}
+
 #left-mosaique {
   //background-color: grey;
   //height: 200px;
@@ -38,8 +43,11 @@
   height: 100px;
   background-color: #707070;
 }
-
-.anchor {
-  margin-top: -60px;
-  float: left; 
+.infos {
+  height: 200px;
+  background-color: #707070;
+}
+.partenaires {
+  height: 200px;
+  background-color: #606060;
 }
