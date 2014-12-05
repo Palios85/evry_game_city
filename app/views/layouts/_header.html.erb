@@ -10,23 +10,23 @@
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="#">EvryGameCity</a>
+      <%= link_to 'EvryGameCity', root_path, class: "navbar-brand" %>
     </div>
 
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <li class="active"><a href="#">Home<span class="sr-only">(current)</span></a></li>
-        <li><a href="#">Partenaires</a></li>
-        <li><a href="#">Informations</a></li>
-        <li><a href="#">Contacts</a></li>
+        <li class="active"><a href="/">Home<span class="sr-only">(current)</span></a></li>
+        <li><a href="/partenaires">Partenaires</a></li>
+        <li><a href="/informations">Informations</a></li>
+        <li><a href="/contacts">Contacts</a></li>
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jeux<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#">Counter Strike : Globale Offensive</a></li>
-            <li><a href="#">League of Legends</a></li>
-            <li><a href="#">Starcraft 2</a></li>
-            <li><a href="#">Hearthstone</a></li>
+            <li><a href="#"><%= t(:csgo) %></a></li>
+            <li><a href="#"><%= t(:lol) %></a></li>
+            <li><a href="#"><%= t(:sc2) %></a></li>
+            <li><a href="#"><%= t(:hs) %></a></li>
             <!--li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
