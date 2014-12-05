@@ -23,10 +23,10 @@
         <li class="dropdown">
           <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Jeux<span class="caret"></span></a>
           <ul class="dropdown-menu" role="menu">
-            <li><a href="#"><%= t(:csgo) %></a></li>
-            <li><a href="#"><%= t(:lol) %></a></li>
-            <li><a href="#"><%= t(:sc2) %></a></li>
-            <li><a href="#"><%= t(:hs) %></a></li>
+            <li><%= link_to t(:csgo), jeux_path(anchor: :csgo) %></li>
+            <li><%= link_to t(:lol), jeux_path(anchor: :lol) %></li>
+            <li><%= link_to t(:sc2), jeux_path(anchor: :sc2) %></li>
+            <li><%= link_to t(:hs), jeux_path(anchor: :hs) %></li>
             <!--li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>

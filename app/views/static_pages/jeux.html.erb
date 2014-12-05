@@ -1,10 +1,8 @@
-<h1 class="game-title"><%= t(:csgo) %> </h1>
+
+<%= render partial: 'static_pages/jeux/jeu', locals: {gametag: :csgo} %>
+<%= render partial: 'static_pages/jeux/jeu', locals: {gametag: :lol} %>
+<%= render partial: 'static_pages/jeux/jeu', locals: {gametag: :sc2} %>
+<%= render partial: 'static_pages/jeux/jeu', locals: {gametag: :hs} %>
 
 
-<h1 class="game-title"><%= t(:lol) %></h1>
 
-
-<h1 class="game-title"><%= t(:sc2) %></h1>
-
-
-<h1 class="game-title"><%= t(:hs) %></h1>

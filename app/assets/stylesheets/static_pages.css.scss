@@ -3,12 +3,12 @@
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
 #left-mosaique {
-  #background-color: grey;
+  //background-color: grey;
   //height: 200px;
 }
 
 #right-mosaique {
-  background-color: grey;
+  //background-color: grey;
   //height: 200px;
 }
 
@@ -24,7 +24,6 @@
 }
 .jeu {
   height: 250px;
-  //max-width: 350px;
   background-color: #404040;
 }
 .twitter {
@@ -38,4 +37,9 @@
 .billeterie {
   height: 100px;
   background-color: #707070;
+}
+
+.anchor {
+  margin-top: -60px;
+  float: left; 
 }
