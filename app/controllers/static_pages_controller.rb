@@ -11,7 +11,15 @@ class StaticPagesController < ApplicationController
   def contacts
   end
 
-  def jeux
+  def csgo
   end
 
+  def lol
+  end
+
+  def sc2
+  end
+
+  def hs
+  end
 end
