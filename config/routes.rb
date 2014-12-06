@@ -1,15 +1,15 @@
 EvryGameCity::Application.routes.draw do
+
   root 'static_pages#home'
 
   match '/partenaires', to: 'static_pages#partenaires', via: 'get'
   match '/informations', to: 'static_pages#informations', via: 'get'
   match '/contacts', to: 'static_pages#contacts', via: 'get'
 
-  match '/csgo', to: 'static_pages#csgo', via: 'get'
-  match '/lol', to: 'static_pages#lol', via: 'get'
-  match '/sc2', to: 'static_pages#sc2', via: 'get'
-  match '/hs', to: 'static_pages#hs', via: 'get'
-
+  get "jeux/csgo"
+  get "jeux/lol"
+  get "jeux/sc2"
+  get "jeux/hs"
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
