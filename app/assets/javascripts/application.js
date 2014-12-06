@@ -15,11 +15,14 @@
 //= require bootstrap
 //= require_tree .
 
-
-
-
 $(document).ready(function() {
   $('.dropdown-toggle').dropdown();
+
+  $(".nav a").on("click", function(){
+     $(".nav").find(".active").removeClass("active");
+     $(this).parent().addClass("active");
+  });
+
 });
 
 
