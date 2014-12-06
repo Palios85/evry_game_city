@@ -8,18 +8,10 @@ class StaticPagesController < ApplicationController
   def informations
   end
 
-  def contacts
+  def contact_egc
   end
 
-  def csgo
+  def contact_egs
   end
-
-  def lol
-  end
-
-  def sc2
-  end
-
-  def hs
-  end
+  
 end

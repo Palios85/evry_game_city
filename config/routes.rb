@@ -4,7 +4,9 @@ EvryGameCity::Application.routes.draw do
 
   match '/partenaires', to: 'static_pages#partenaires', via: 'get'
   match '/informations', to: 'static_pages#informations', via: 'get'
-  match '/contacts', to: 'static_pages#contacts', via: 'get'
+  match '/contact_egc', to: 'static_pages#contact_egc', via: 'get'
+  match '/contact_egs', to: 'static_pages#contact_egs', via: 'get'
+
 
   get "jeux/csgo"
   get "jeux/lol"
