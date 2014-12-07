@@ -26,6 +26,12 @@ en:
   sc2: "Starcraft 2"
   hs: "Hearthstone"
   
+  regles: "Règles"
+  materiel: "Materiel"
+  recompenses: "Récompenses"
+  inscription: "Inscription"
+  arbre: "Arbre du tournoi"
+  
   infolan: "Présentation de la LAN"
   infolieu: "Où ?"
   infodate: "Quand ?"
@@ -33,3 +39,6 @@ en:
 
   egs: "Ensiie Game Show"
   egc: "Evry Games City"
+
+  
+

@@ -1,0 +1,11 @@
+<div class="col-md-12 banniere-game-title text-center">
+  <h1><%= t(gametag) %> </h1>
+</div>
+
+<%= render partial: 'jeux/jeu_subtitle', locals: { gametag: gametag, categ: :regles} %>
+<%= render partial: 'jeux/jeu_subtitle', locals: { gametag: gametag, categ: :materiel} %>
+<%= render partial: 'jeux/jeu_subtitle', locals: { gametag: gametag, categ: :recompenses} %>
+<%#= render partial: 'jeux/jeu_subtitle', locals: { gametag: gametag, categ: :inscription} %>
+<%#= render partial: 'jeux/jeu_subtitle', locals: { gametag: gametag, categ: :arbre} %>
+
+
