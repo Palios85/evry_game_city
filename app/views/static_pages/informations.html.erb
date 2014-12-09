@@ -1,22 +1,60 @@
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolan} %>
+  </div>
+  <div class="panel-body">
+    <p><%= t("infolan.text") %></p>
+    <p><%= t("infolan.text2") %> </p>
+  </div>
+</div>
 
-<%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolan} %>
-<p><%= t("infolan.text") %></p>
-<p><%= t("infolan.text2") %> </p>
-
-<%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolieu} %>
-<p><%= t("infolieu.text") %></p>
-
-<%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infodate} %>
-<p><%= t("infodate.text") %></p>
-
-<%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infomoyen} %>
-<h4><%= t("infomoyen.rerd.title") %></h4>
-<p><%= t("infomoyen.rerd.text") %></p>
-<h4><%= t("infomoyen.route.title") %></h4>
-<p><%= t("infomoyen.route.text") %> </p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolieu} %>
+  </div>
+  <div class="panel-body">
+    <p><%= t("infolieu.text") %></p>
+  </div>
+</div>
 
 
-<%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoprix} %>
-<p><%= t("infoprix.text") %></p>
-<p><%= t("infoprix.text2") %></p>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infodate} %>
+  </div>
+  <div class="panel-body">
+    <p><%= t("infodate.text") %></p>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infomoyen} %>
+  </div>
+  <div class="panel-body">
+    <h4><%= t("infomoyen.rerd.title") %></h4>
+    <p><%= t("infomoyen.rerd.text") %></p>
+    <h4><%= t("infomoyen.route.title") %></h4>
+    <p><%= t("infomoyen.route.text") %> </p>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoprix} %>
+  </div>
+  <div class="panel-body">
+    <p><%= t("infoprix.text") %></p>
+    <p><%= t("infoprix.text2") %></p>
+  </div>
+</div>
+
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoservice} %>
+  </div>
+  <div class="panel-body">
+    <p><%= t("infoservice.text") %></p>
+  </div>
+</div>
 

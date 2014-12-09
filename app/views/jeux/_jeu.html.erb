@@ -1,5 +1,7 @@
-<div class="col-md-12 banniere-game-title text-center">
-  <h1><%= t("#{gametag}.name") %> </h1>
+<div class="row">
+  <div class="col-md-12 banniere-game-title text-center">
+    <h1><%= t("#{gametag}.name") %> </h1>
+  </div>
 </div>
 
 <%= render partial: 'jeux/jeu_subsection', locals: { gametag: gametag, categ: :regles} %>

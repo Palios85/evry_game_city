@@ -1,8 +1,11 @@
- 
-<h2 class=<%= categ %>><%= t(categ) %></h2>
+<div class="panel panel-default">
+  <div class="panel-heading">
+    <h2 class=<%= categ %>><%= t(categ) %></h2>
+  </div>
+  <div class="panel-body">
+    <%= t("#{gametag}.#{categ}") %>
 
-<div class="content_area">
-  <%#= render partial: 'jeux/loremipsum', locals: { gametag: gametag, categ: categ} %>
-  <%= t("#{gametag}.#{categ}") %>
-
+  </div>
 </div>
+
+ 

@@ -89,6 +89,10 @@ en:
     text: "En prévente : 15E par personne"
     text2: "Sur place : 17E par personne"
 
+  infoservice:
+    name: "Services"
+    text: "Location PC ? - Location cable ? - Restauration - Serveurs Fun ? Consoles ? - Hôtels pas loin"
+
   egs:
     name: "Ensiie Games Show"
     presentation: "L’ENSIIE Game Show était à l’origine un projet scolaire réalisé par des étudiants de l’ENSIIE, école d’ingénieurs en informatique située à Evry. Le but était alors d’organiser un tournoi de jeux vidéo à l’époque Warcraft 3 et Counter-Strike entre école d’ingénieurs, afin d’élire au cours d’une compétition offline le meilleur joueur-élève ingénieur de France. L’idée a été reprise par le club de jeux vidéo de l’école, et c’est donc l’association LanPartIIE qui s’est chargée de l’organisation du tournoi pendant plusieurs années. Le concept a légèrement évolué et nous proposons désormais à des joueurs de toute la France de s’affronter sur CS : GO, Starcraft 2, LoL ou Heathstone."

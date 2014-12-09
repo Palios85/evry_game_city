@@ -16,10 +16,18 @@
 
 $(document).ready(function() {
 
+  //Click on a menu item switches the "active" status from the current to this one
   $(".nav a").on("click", function(){
      $(".nav").find(".active").removeClass("active");
      $(this).parent().addClass("active");
   });
+
+  //Click on an anchor link in the mobile menu closes the navbar-toggle
+  if($('.navbar-toggle').css('display') != 'none' ) {
+      $('.nav a.anchor-link').on('click', function(){
+          $(".navbar-toggle").click()
+      });
+  }
 
 });
 
