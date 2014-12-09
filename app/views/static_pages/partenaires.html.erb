@@ -4,3 +4,10 @@
     <h1><%= t(:partenaires) %></h1>
   </div>
 </div>
+
+
+  <div class="row partenaires">
+   <% (1..6).each do |i| %>
+      <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
+   <% end  %>
+  </div>
