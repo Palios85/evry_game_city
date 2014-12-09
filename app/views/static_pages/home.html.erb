@@ -1,6 +1,6 @@
   <div class="row">
     <div class="col-md-12 mosaique" id="banniere">
-      banniere
+      <div class="panel panel-default"><div class="panel-body">banniere</div></div>
     </div>
   </div>
 
@@ -17,16 +17,16 @@
 
       <div class="row">
         <div class="col-md-6 mosaique jeu csgo">
-          CS:GO
+          <div class="panel panel-default"><div class="panel-body">CS:GO</div></div>
         </div>
         <div class="col-md-6 mosaique jeu lol">
-          LoL
+          <div class="panel panel-default"><div class="panel-body">LoL</div></div>
         </div>
         <div class="col-md-6 mosaique jeu starcraft2">
-          Starcraft 2
+          <div class="panel panel-default"><div class="panel-body">Starcraft 2</div></div>
         </div>
         <div class="col-md-6 mosaique jeu hearthstone">
-          Hearthstone
+          <div class="panel panel-default"><div class="panel-body">Hearthstone</div></div>
         </div>
       </div>
     </div><!-- col-md-8 left-mosaique -->
@@ -35,7 +35,7 @@
       
       <div class="row">
         <div class="col-md-12 mosaique billeterie">
-          Billeterie
+          <div class="panel panel-default"><div class="panel-body">Billeterie</div></div>
         </div>
       </div>
 
@@ -48,9 +48,15 @@
 
       <div class="row">
         <div class="col-md-12 mosaique instagram">
-          Instagram feed #EGC
-          <!-- www.intagme.com -->
-<iframe src="http://www.intagme.com/in/?h=ZWdjfHNsfDMwMHwyfDN8fHllc3w1fHVuZGVmaW5lZHx5ZXM=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:315px; height: 315px" ></iframe>
+          <div class="panel panel-default">
+            <div class="panel-heading">
+              <h4>Instagram feed #EGC</h4>
+            </div>
+            <div class="panel-body">
+              <!-- www.intagme.com -->
+              <iframe src="http://www.intagme.com/in/?h=ZWdjfHNsfDMwMHwyfDN8fHllc3w1fHVuZGVmaW5lZHx5ZXM=" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:300px; height: 315px" ></iframe>
+            </div>
+          </div>
         </div>
       </div>
 
@@ -59,15 +65,15 @@
   </div>
 
 
-  <div class="row">
-    <div class="col-md-12 mosaique infos">
-      Infos pratiques
-    </div>
+  <div class="row infos">
+    <% [:infolieu, :infodate, :infomoyen, :infoprix].each do |infotag| %>
+      <%= render partial: "static_pages/informations/info_mosaique", locals: {infotag: infotag} %>
+    <% end %>
   </div>
 
 
-  <div class="row">
-    <div class="col-md-12 mosaique partenaires">
-      Partenaires
-    </div>
+  <div class="row partenaires">
+   <% (1..6).each do |i| %>
+      <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
+   <% end  %>
   </div>

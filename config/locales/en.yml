@@ -88,11 +88,13 @@ en:
 
   infolieu:
     name: "Où ?"
-    text: "Adresse : Place Agora, 91000 Évry."
+    text: "Adresse : Arènes de l'Agora, 91000 Évry."
+    mosaique-text: "Arènes de l'Agora, Évry"
 
   infodate:
     name: "Quand ?"
     text: "Le 23 – 24 Avril 2015 de 09h à 00h le Samedi et le Dimanche."
+    mosaique-text: "23-24 Avril 2015"
 
   infomoyen:
     name: "Comment ?"
@@ -102,11 +104,13 @@ en:
     route: 
       title: "Par la route :"
       text: "A6 depuis Paris : direction Lyon, sortie Evry puis direction Agora par le boulevard de l'Europe / Francilienne depuis Corbeil-Essonnes : sortie Bois Briard depuis Fleury-Mérogis, sortie Evry puis direction Agora par le boulevard de l'Europe. Autobus TICE : arrêt Gare SNCF ou Agora"
+    mosaique-text: "RER D, Francilienne, Bus TICE"
 
   infoprix:
     name: "Combien ?"
     text: "En prévente : 15€ par personne"
     text2: "Sur place : 17€ par personne"
+    mosaique-text: "Prévente: 15€ - Sur place 17€"
 
   infoservice:
     name: "Services"
@@ -130,4 +134,18 @@ en:
     membre2: "Mademoiselle Bidule"
     contact: "EGS contact"
   
-  
+###############
+# Partenaires #
+###############
+
+  partenaire-1: "Partenaire 1"
+  partenaire-2: "Partenaire 2"
+  partenaire-3: "Partenaire 3"
+  partenaire-4: "Partenaire 4"
+  partenaire-5: "Partenaire 5"
+  partenaire-6: "Partenaire 6"
+  partenaire-7: "Partenaire 7"
+  partenaire-8: "Partenaire 8"
+
+
+ 
