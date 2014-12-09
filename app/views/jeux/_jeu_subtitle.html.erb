@@ -2,5 +2,7 @@
 <h2 class=<%= categ %>><%= t(categ) %></h2>
 
 <div class="content_area">
-  <%= render partial: 'jeux/loremipsum', locals: { gametag: gametag, categ: categ} %>
+  <%#= render partial: 'jeux/loremipsum', locals: { gametag: gametag, categ: categ} %>
+  <%= t("#{gametag}.#{categ}") %>
+
 </div>

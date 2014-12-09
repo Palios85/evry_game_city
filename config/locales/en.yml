@@ -21,10 +21,39 @@
 
 en:
   hello: "Hello world"
-  csgo: "Counter Strike : Globale Offensive"
-  lol: "League of Legends"
-  sc2: "Starcraft 2"
-  hs: "Hearthstone"
+
+  csgo: 
+    name: "Counter Strike : Globale Offensive" 
+    regles: "TEST REGLES"
+    materiel: "Les joueurs doivent amener leurs ordinateurs munis de leurs accessoires (chargeurs, souris...) et un câble RJ45 (câblage droit) d'une longueur de 3 mètres minimum. Tout joueur doit respecter son propre matériel, le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash Prize de 5000 euros à répartir entre les 3 premiers."
+    inscription: "TEST INSCRIPTIONS"
+    arbre: "TEST ARBRE"
+
+  lol: 
+    name: "League of Legends"
+    regles: "TEST REGLES"
+    materiel: "Les joueurs doivent amener leurs ordinateurs munis de leurs accessoires (chargeurs, souris...) et un câble RJ45 (câblage droit) d'une longueur de 3 mètres minimum. Tout joueur doit respecter son propre matériel, le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash prize de 2000 euros à répartir entre les 3 premiers."
+    inscription: "TEST INSCRIPTIONS"
+    arbre: "TEST ARBRE"
+
+  sc2: 
+    name: "Starcraft 2"
+    regles: "TEST REGLES"
+    materiel: "Les joueurs doivent amener leurs périphériques de jeux : clavier, casque et souris. Tout joueur doit respecter son propre matériel, le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash prize de 2000 euros à répartir entre les 3 premiers."
+    inscription: "TEST INSCRIPTIONS"
+    arbre: "TEST ARBRE"
+ 
+  hs: 
+    name: "Hearthstone"
+    regles: "TEST REGLES"
+    materiel: "Les joueurs inscrits pour le tournois Hearthstone n’auront pas besoin de matériel. Tout joueur doit respecter le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash Prize de 1000 euros à répartir entre les 3 premiers."
+    inscription: "TEST INSCRIPTIONS"
+    arbre: "TEST ARBRE"
+
   
   regles: "Règles"
   materiel: "Materiel"
@@ -39,6 +68,4 @@ en:
 
   egs: "Ensiie Game Show"
   egc: "Evry Games City"
-
-  
 
