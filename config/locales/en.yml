@@ -22,6 +22,29 @@
 en:
   hello: "Hello world"
 
+
+##########
+# Titres #
+##########
+  home: "Home"
+  regles: "Règles"
+  materiel: "Materiel"
+  recompenses: "Récompenses"
+  inscription: "Inscription"
+  arbre: "Arbre du tournoi"
+  presentation: "Présentation"
+  lequipe: "L'équipe"
+  contact: "Contacts"
+  nouscontacter: "Nous contacter"
+  informations: "Informations"
+  infopratiques: "Informations pratiques"
+  partenaires: "Partenaires"
+  jeux: "Jeux"
+  login: "Se connecter"
+
+########
+# Jeux #
+########
   csgo: 
     name: "Counter Strike : Globale Offensive" 
     regles: "TEXTE REGLES"
@@ -54,14 +77,10 @@ en:
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
 
-  
-  regles: "Règles"
-  materiel: "Materiel"
-  recompenses: "Récompenses"
-  inscription: "Inscription"
-  arbre: "Arbre du tournoi"
 
-  
+################
+# Informations #
+################  
   infolan: 
     name: "Présentation de la LAN"
     text: "Les 23 et 24 Avril prochain aura lieu la première édition d’Evry Game City. Ce nouvel évènement a pour but de rassembler les gamers de tout bord autour de leur passion commune : les Jeux Vidéos ! 4 tournois différents seront organisés sur 4 jeux : Counter Strike : Global Offensive, League of Legends, Starcraft 2 et Hearthstone. 10 000 euros de cash prize seront distribués entre les vainqueurs de chaque tournoi, avec également de nombreuses dotations matérielles pour les autres compétiteurs."
@@ -81,24 +100,34 @@ en:
       title: "Par le RER D :"
       text: "Paris gare du Nord/Châtelet/Gare de Lyon direction Corbeil – Malesherbes station Evry-Courcouronnes, sortie Agora (à 5 minutes des Arènes)."
     route: 
-      title: "Par la route"
+      title: "Par la route :"
       text: "A6 depuis Paris : direction Lyon, sortie Evry puis direction Agora par le boulevard de l'Europe / Francilienne depuis Corbeil-Essonnes : sortie Bois Briard depuis Fleury-Mérogis, sortie Evry puis direction Agora par le boulevard de l'Europe. Autobus TICE : arrêt Gare SNCF ou Agora"
 
   infoprix:
     name: "Combien ?"
-    text: "En prévente : 15E par personne"
-    text2: "Sur place : 17E par personne"
+    text: "En prévente : 15€ par personne"
+    text2: "Sur place : 17€ par personne"
 
   infoservice:
     name: "Services"
     text: "Location PC ? - Location cable ? - Restauration - Serveurs Fun ? Consoles ? - Hôtels pas loin"
 
+
+############
+# Contacts #
+############
   egs:
-    name: "Ensiie Games Show"
+    name: "Ensiie Game Show"
     presentation: "L’ENSIIE Game Show était à l’origine un projet scolaire réalisé par des étudiants de l’ENSIIE, école d’ingénieurs en informatique située à Evry. Le but était alors d’organiser un tournoi de jeux vidéo à l’époque Warcraft 3 et Counter-Strike entre école d’ingénieurs, afin d’élire au cours d’une compétition offline le meilleur joueur-élève ingénieur de France. L’idée a été reprise par le club de jeux vidéo de l’école, et c’est donc l’association LanPartIIE qui s’est chargée de l’organisation du tournoi pendant plusieurs années. Le concept a légèrement évolué et nous proposons désormais à des joueurs de toute la France de s’affronter sur CS : GO, Starcraft 2, LoL ou Heathstone."
+    membre1: "Monsieur Machin"
+    membre2: "Mademoiselle Bidule"
+    contact: "EGS contact"
+
   egc: 
     name: "Evry Games City"
-    presentation: "TEXTE PRESENTATION"
-
-
-  lorem: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam volutpat dolor sit amet diam fringilla, nec facilisis neque faucibus. Ut rutrum porttitor ligula quis mollis. Donec nibh nunc, consequat viverra sem in, tincidunt ultrices diam. Maecenas finibus mattis iaculis. Nam tortor ante, commodo non nisl sit amet, ultrices convallis eros. Donec faucibus odio gravida libero accumsan laoreet. Integer elementum scelerisque nisi, ut vestibulum felis ultricies et. Ut dapibus lacus est, vel sodales lacus tincidunt eu. Sed tempus feugiat ante. Sed semper, neque vel vehicula aliquet, tellus ante accumsan ipsum, vestibulum fermentum ante nisi sed massa. Pellentesque tempus dolor vitae suscipit pharetra. Donec lobortis massa lectus, non egestas elit vestibulum eget. Suspendisse eleifend pharetra sollicitudin. Nam auctor odio sed sapien interdum consequat. Mauris faucibus ex in nisl accumsan cursus. Vivamus condimentum non nulla nec consequat. Aliquam quis varius quam, non semper quam. Morbi velit nisi, egestas at convallis in, facilisis at mauris."
+    presentation: "TEXTE PRESENTATION EGC"
+    membre1: "Monsieur Machin"
+    membre2: "Mademoiselle Bidule"
+    contact: "EGS contact"
+  
+  
