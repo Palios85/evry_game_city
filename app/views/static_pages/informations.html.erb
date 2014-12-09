@@ -22,7 +22,7 @@
 
 
 <div class="row">
-  <div class="left-column col-md-4">
+  <div class="left-column col-md-6">
 
     <div class="panel panel-default"><!-- Où ? -->
       <div class="panel-heading">
@@ -48,14 +48,27 @@
   </div><!-- left column-->
 
 
-  <div class="col-md-8">
+  <div class="col-md-6">
 
-    <div class="panel panel-default"><!-- Plan -->
-      <iframe width="600" height="550" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Ar%C3%A8nes%20de%20l'Agora%2C%2091000%20%C3%89vry&key=AIzaSyCj5JRiau8OMBTI8Hi6Cysv7Zcdrl0Kb_I"></iframe>
+    <div class="panel panel-default google-maps"><!-- Plan -->
+      <iframe width="350" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Ar%C3%A8nes%20de%20l'Agora%2C%2091000%20Evry%2C%20France&key=AIzaSyCj5JRiau8OMBTI8Hi6Cysv7Zcdrl0Kb_I"></iframe>
     </div>
 
   </div>
 
+  <div class="col-md-6">
+
+    <div class="panel panel-default"><!-- Combien ? -->
+      <div class="panel-heading">
+        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoprix} %>
+      </div>
+      <div class="panel-body">
+        <p><%= t("infoprix.text") %></p>
+        <p><%= t("infoprix.text2") %></p>
+      </div>
+    </div>
+
+  </div>
 </div>
 
 
@@ -74,19 +87,7 @@
     </div>
 
   </div>
-  <div class="col-md-6">
 
-    <div class="panel panel-default"><!-- Combien ? -->
-      <div class="panel-heading">
-        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoprix} %>
-      </div>
-      <div class="panel-body">
-        <p><%= t("infoprix.text") %></p>
-        <p><%= t("infoprix.text2") %></p>
-      </div>
-    </div>
-
-  </div>
   <div class="col-md-12">
 
     <div class="panel panel-default"><!-- Services -->

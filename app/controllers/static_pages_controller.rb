@@ -14,4 +14,6 @@ class StaticPagesController < ApplicationController
   def contact_egs
   end
   
+  def reglement
+  end
 end
