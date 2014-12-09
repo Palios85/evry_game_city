@@ -38,8 +38,15 @@
 }
 .jeu .panel {
   height: 250px;
-  //background-color: #404040;
 }
+.jeu {
+  .panel-body {
+    padding: 0px;
+  }
+  overflow: hidden;
+}
+
+
 .twitter {
   //height: 350px;
   //background-color: #505050;

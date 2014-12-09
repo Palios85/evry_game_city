@@ -11,23 +11,17 @@
       <div class="row">
         <div class="col-md-12 mosaique slideshow">
           <!--Slideshow-->
-          <%= render partial: 'static_pages/carousel' %>
+          <%= render partial: 'static_pages/home/carousel' %>
         </div>
       </div>
 
       <div class="row">
-        <div class="col-md-6 mosaique jeu csgo">
-          <div class="panel panel-default"><div class="panel-body">CS:GO</div></div>
-        </div>
-        <div class="col-md-6 mosaique jeu lol">
-          <div class="panel panel-default"><div class="panel-body">LoL</div></div>
-        </div>
-        <div class="col-md-6 mosaique jeu starcraft2">
-          <div class="panel panel-default"><div class="panel-body">Starcraft 2</div></div>
-        </div>
-        <div class="col-md-6 mosaique jeu hearthstone">
-          <div class="panel panel-default"><div class="panel-body">Hearthstone</div></div>
-        </div>
+
+        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :csgo} %>
+        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :lol} %>
+        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :sc2} %>
+        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :hs} %>
+
       </div>
     </div><!-- col-md-8 left-mosaique -->
 

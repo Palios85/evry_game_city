@@ -53,6 +53,8 @@ en:
     recompenses: "Cash Prize de 5000 euros à répartir entre les 3 premiers."
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
+    banniere: "banniere-csgo.jpg"
+    icon: "icon-csgo.jpg"
 
   lol: 
     name: "League of Legends"
@@ -61,6 +63,8 @@ en:
     recompenses: "Cash prize de 2000 euros à répartir entre les 3 premiers."
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
+    banniere: "banniere-lol.jpg"
+    icon: "icon-lol.jpg"
 
   sc2: 
     name: "Starcraft 2"
@@ -69,6 +73,8 @@ en:
     recompenses: "Cash prize de 2000 euros à répartir entre les 3 premiers."
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
+    banniere: "banniere-sc2.jpg"
+    icon: "icon-sc2.png"
  
   hs: 
     name: "Hearthstone"
@@ -77,6 +83,8 @@ en:
     recompenses: "Cash Prize de 1000 euros à répartir entre les 3 premiers."
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
+    banniere: "banniere-hs.jpg"
+    icon: "icon-hs.bmp"
 
 
 ################

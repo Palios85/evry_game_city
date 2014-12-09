@@ -2,13 +2,13 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
-.banniere-game-title {
-  background-color: black;
-  color: white;
-  height: 100px;
-  margin-bottom: 10px;
+.banniere-game {
+  .panel-body {
+    padding: 0px;
+  }
+  overflow: hidden;
 }
 
 .content_area {
-  #background-color: #808080;
+  //background-color: #808080;
 }
