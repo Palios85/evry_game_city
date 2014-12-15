@@ -7,19 +7,7 @@
   float: left; 
 }
 
-#left-mosaique {
-  //background-color: grey;
-  //height: 200px;
-}
-
-#right-mosaique {
-  //background-color: grey;
-  //height: 200px;
-}
-
 .mosaique {
-  //background-color: blue;
-  //color:white;
   margin: 0px;
   padding: 10px;
   .panel {
@@ -29,18 +17,11 @@
 
 #banniere .panel {
   height: 200px;
-  //background-color: #202020;
 }
 
-.slideshow {
-  //height:300px;
-  //background-color: #303030;
-}
 .jeu {
   height: 250px;
 }
-
-
 
 .twitter {
   padding-bottom: 0px;
@@ -61,24 +42,17 @@
     }
   } 
 }
+
 .billeterie .panel {
   height: 100px;
-  //background-color: #707070;
 }
-.infos {
-  .panel {
-    height: 200px;
-  }
-  .panel-body {
-    height: 139px;
-    overflow: hidden;
-border-bottom-left-radius: 4px;
-border-bottom-right-radius: 4px;
-  }
+
+.mosaique.infos .panel {
+  height: 200px;
+
 }
 .partenaires .panel {
   height: 150px;
-  //background-color: #606060;
 }
 
 .google-maps {

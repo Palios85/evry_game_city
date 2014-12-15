@@ -10,10 +10,6 @@ body {
   font-family: 'eurostyle';
 }
 
-.panel-heading {
-  font-family: 'eurostyle-bold';
-}
-
 .container {
   max-width: 970px;
 }
@@ -48,15 +44,14 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   }
 }
 
+
 .panel-heading {
+  font-family: 'eurostyle-bold';
   background-color: $orange !important;
   * { color: white !important;}
 }
 
-.mosaique.infos .panel {
+.transparent.panel {
   color: white;
-  .panel-body {
-    opacity: 0.5;
-    background-color: black !important;
-  }
+  background-color: rgba(0, 0, 0, 0.5) !important;
 }
