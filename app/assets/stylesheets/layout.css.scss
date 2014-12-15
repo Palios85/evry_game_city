@@ -1,7 +1,8 @@
 //@import "bootstrap";
 
 $body-margin: 60px;
-
+$bleu-gris: #1e2f44;
+$orange: #ea6d2e;
 
 body {
   margin-top: $body-margin;
@@ -21,4 +22,20 @@ footer {
 
 h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 10px;
+}
+
+.navbar-inverse {
+  background-color: $bleu-gris;
+  * { color: white !important; }
+
+  li.active a.navlink {
+    background-color: $orange !important;
+  }
+
+  .dropdown-menu {
+    background-color: $bleu-gris;
+  }
+  .dropdown-menu>li>a:hover {
+    background-color: $orange !important;
+  }
 }
