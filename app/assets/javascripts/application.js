@@ -17,8 +17,8 @@
 $(document).ready(function() {
 
   //Click on a menu item switches the "active" status from the current to this one
-  $(".nav a").on("click", function(){
-     $(".nav").find(".active").removeClass("active");
+  $(".navbar a").on("click", function(){
+     $(".navbar").find(".active").removeClass("active");
      $(this).parent().addClass("active");
   });
 
