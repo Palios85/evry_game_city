@@ -7,6 +7,7 @@ $lightgrey: #3f3f3f;
 
 body {
   margin-top: $body-margin;
+  font-family: 'eurostyle';
 }
 
 .container {
@@ -21,8 +22,9 @@ footer {
   }
 }
 
-h1, .h1, h2, .h2, h3, .h3 {
+h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   margin-top: 10px;
+  font-family: 'eurostyle-bold';
 }
 
 .navbar-inverse {
