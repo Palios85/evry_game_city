@@ -30,7 +30,9 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 }
 
 .navbar-inverse {
-  font-family: 'eurostyle';
+  font-family: 'bebas';
+  letter-spacing: 2px;
+  font-weight: bold;
 
   background-color: $bleu-gris;
   * { color: white !important; }
