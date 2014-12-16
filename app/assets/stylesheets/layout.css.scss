@@ -7,6 +7,7 @@ $lightgrey: #3f3f3f;
 
 body {
   margin-top: $body-margin;
+  color: white;
   font-family: 'eurostyle';
   background-color: black;
   background-image: image-url("Site_EGC_Background2_copy.jpg");
@@ -22,7 +23,7 @@ body {
 footer {
   .container {
     margin-top: 10px;
-    border-top: 1px solid #eaeaea;
+    border-top: 2px solid #eaeaea;
     color: #707070;
   }
 }
@@ -57,10 +58,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .panel-heading {
   font-family: 'eurostyle-bold';
   background-color: $orange !important;
-  * { color: white !important;}
 }
 
 .transparent.panel {
-  color: white;
   background-color: rgba(0, 0, 0, 0.5) !important;
 }

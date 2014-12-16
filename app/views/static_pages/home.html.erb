@@ -42,13 +42,13 @@
 
       <div class="row">
         <div class="col-md-12 mosaique instagram">
-          <div class="panel panel-default">
+          <div class="panel transparent">
             <div class="panel-heading">
               <h4>Instagram #EGC2015</h4>
             </div>
             <div class="panel-body">
               <!-- www.intagme.com -->
-              <iframe src="http://www.intagme.com/in/?h=ZWdjMjAxNXxzbHwzMDB8MnwzfHx5ZXN8NXx1bmRlZmluZWR8eWVz" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:300px; height: 315px" ></iframe>
+              <iframe class="center-block" src="http://www.intagme.com/in/?h=ZWdjMjAxNXxzbHwzMDB8MnwzfHx5ZXN8NXx1bmRlZmluZWR8eWVz" allowTransparency="true" frameborder="0" scrolling="no" style="border:none; overflow:hidden; width:300px; height: 315px" ></iframe>
             </div>
           </div>
         </div>
@@ -59,6 +59,7 @@
   </div>
 
 
+
   <div class="row infos">
     <% [:infolieu, :infodate, :infomoyen, :infoprix].each do |infotag| %>
       <%= render partial: "static_pages/informations/info_mosaique", locals: {infotag: infotag} %>
@@ -66,8 +67,52 @@
   </div>
 
 
+
   <div class="row partenaires">
    <% (1..6).each do |i| %>
       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
    <% end  %>
+  </div>
+
+
+
+
+  <div class="row home-footer">
+
+    <div class="col-md-5">
+      <div class="panel transparent">
+
+        <div class="panel-heading">
+          Nous suivre 
+        </div>
+        <div class="panel-body row">
+          <div class="col-md-8">
+            <small>Retrouvez le meilleur de notre communauté</small>
+          </div>
+          <div class="col-md-4 row social-links">
+            <div class="col-md-6">
+              <a class="navlink" href="https://www.facebook.com/pages/Evry-Games-City/744555588972740">
+                <%= image_tag "Facebook_Menu_icon_1.png" %>
+              </a>
+            </div>
+            <div class="col-md-6">
+              <a class="navlink" href="https://twitter.com/EvryGamesCity">
+                <%= image_tag "Twitter_Menu_icon_1.png" %>
+              </a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="col-md-4 middle-home-footer">
+
+
+    </div>
+
+    <div class="col-md-3">
+      <%= image_tag "LOGO_BLACK_EGC.png", height: "80", class: "center-block" %>
+      <div class="text-center small">© EvryGamesCity</div>
+    </div>
   </div>

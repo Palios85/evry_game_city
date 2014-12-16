@@ -43,6 +43,22 @@
   background-color: #1e2f44;
 }
 
+.home-footer {
+  border-top: 2px solid #eaeaea;
+  padding-top: 20px;
+  margin-top: 10px;
+
+  border-color: white;
+  .social-links {
+    margin-top: 5px;
+  }
+  .middle-home-footer {
+    border-left: 2px solid #eaeaea;
+    border-right: 2px solid #eaeaea;
+    height: 110px;
+  }
+}
+
 
 .infologo {
   float: right;
