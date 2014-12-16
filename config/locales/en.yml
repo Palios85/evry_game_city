@@ -74,7 +74,7 @@ en:
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
     banniere: "banniere-sc2.jpg"
-    icon: "icon-sc2.png"
+    icon: "icon-sc2.jpg"
  
   hs: 
     name: "Hearthstone"
@@ -84,7 +84,7 @@ en:
     inscription: "TEXTE INSCRIPTIONS"
     arbre: "TEXTE ARBRE"
     banniere: "banniere-hs.jpg"
-    icon: "icon-hs.bmp"
+    icon: "icon-hs.jpg"
 
 
 ################
