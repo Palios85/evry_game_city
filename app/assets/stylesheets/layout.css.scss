@@ -8,10 +8,11 @@ $lightgrey: #3f3f3f;
 body {
   margin-top: $body-margin;
   font-family: 'eurostyle';
+  background-color: black;
   background-image: image-url("Site_EGC_Background2_copy.jpg");
-  background-size: cover;
+  //background-size: cover;
   background-repeat: no-repeat;
-  background-position: center;
+  background-position: center top;
 }
 
 .container {
