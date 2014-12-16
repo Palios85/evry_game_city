@@ -15,10 +15,6 @@
    }
 }
 
-.jeu {
-  //height: 250px;
-}
-
 .twitter {
   padding-bottom: 0px;
   * {
@@ -41,8 +37,25 @@
 
 .mosaique.infos .panel {
   height: 200px;
-
 }
+
+.mosaique.infos .panel:hover {
+  background-color: #1e2f44;
+}
+
+
+.infologo {
+  float: right;
+  margin: -11px; 
+}
+.infologo-center {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: -5px;
+  display: block; 
+}
+
+
 .partenaires .panel {
   height: 150px;
 }
