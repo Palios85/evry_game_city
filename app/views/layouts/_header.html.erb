@@ -36,6 +36,9 @@
             <li><%= link_to t("infoservice.name"), informations_path(anchor: :infoservice), class: "anchor-link"  %></li>
           </ul>
         </li-->
+        <li class="<%= set_active("presentation")%>">
+          <a class="navlink" href="/presentation">L'EVENEMENT</a>
+        </li>
         <li class="<%= set_active("informations")%>">
           <a class="navlink" href="/informations"><%= t(:informations)%></a>
         </li>
