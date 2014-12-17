@@ -151,14 +151,26 @@ en:
 # Partenaires #
 ###############
 
-  partenaire-1: "Partenaire 1"
-  partenaire-2: "Partenaire 2"
-  partenaire-3: "Partenaire 3"
-  partenaire-4: "Partenaire 4"
-  partenaire-5: "Partenaire 5"
-  partenaire-6: "Partenaire 6"
-  partenaire-7: "Partenaire 7"
-  partenaire-8: "Partenaire 8"
+  partenaire-1:
+    name: "ENSIIE"
+    image: "Partenaires_LOGOS_ENSIIE.png"
+    url: "http://www.ensiie.fr/"
+
+  partenaire-2:
+    name: "Ensiie Games Show"
+    image: "Partenaires_LOGOS_EGC.png"
+    url: "http://www.ensiiegameshow.com/"
+
+  partenaire-3:
+    name: "Ville d'Évry"
+    image: "Partenaires_LOGOS_EVRY.png"
+    url: "http://www.evry.fr/"
+
+  partenaire-4:
+    name: "5w Creative Network"
+    image:  "Partenaires_LOGOS_5WCreativeNetwork.png"
+    url: "http://www.5wproject.com/"
+
 
 
  

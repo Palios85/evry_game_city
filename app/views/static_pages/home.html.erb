@@ -69,11 +69,13 @@
 
 
   <div class="row partenaires">
-   <% (1..6).each do |i| %>
+   <% (1..4).each do |i| %>
       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
    <% end  %>
   </div>
-
+  <!-- div class="row partenaires">
+    <%#= render partial: 'static_pages/home/partenaires_carousel' %>
+  </div-->
 
 
 
@@ -83,7 +85,7 @@
       <div class="panel transparent">
 
         <div class="panel-heading">
-          Nous suivre 
+          NOUS SUIVRE 
         </div>
         <div class="panel-body row">
           <div class="col-md-8">
