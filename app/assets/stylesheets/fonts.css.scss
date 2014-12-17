@@ -1,3 +1,9 @@
+@font-face { 
+  font-family: 'helvetica';
+  src: font-url('HelveticaNeueLT-Condensed.otf') format('opentype');
+} 
+
+
 @font-face {
   font-family: 'eurostyle';
   src: font-url('Eurostile_LT_Extended_2.ttf') format('truetype');
@@ -10,7 +16,14 @@
 }
 
 
-@font-face {
+@font-face { //ne marche PAS
+  font-family: 'enrostyle-normal';
+  src: font-url('Eurostile-Normal.ttf') format('truetype')
+}
+
+@font-face { // la remplace
   font-family: 'bebas';
   src: font-url('BebasNeue.otf') format('opentype');
 }
+
+

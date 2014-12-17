@@ -8,7 +8,7 @@ $lightgrey: #3f3f3f;
 body {
   margin-top: $body-margin;
   color: white;
-  font-family: 'eurostyle';
+  font-family: 'helvetica';
   background-color: black;
   background-image: image-url("Site_EGC_Background2_copy.jpg");
   //background-size: cover;
@@ -39,8 +39,9 @@ footer {
   }
 }
 
-h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
+h1, .h1, h2, .h2, h3, .h3 {
   margin-top: 10px;
+  font-family: 'eurostyle-bold'
 }
 
 .navbar-inverse {
@@ -72,6 +73,11 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   font-family: 'eurostyle-bold';
   background-color: $orange !important;
 }
+.panel-body {
+  font-size: 16px;
+}
+
+
 
 .transparent.panel {
   background-color: rgba(0, 0, 0, 0.75) !important;
