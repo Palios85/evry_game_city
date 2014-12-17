@@ -16,4 +16,7 @@ class StaticPagesController < ApplicationController
   
   def reglement
   end
+
+  def plan_du_site
+  end
 end
