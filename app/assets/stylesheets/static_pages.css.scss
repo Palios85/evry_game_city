@@ -39,10 +39,6 @@
   height: 200px;
 }
 
-.mosaique.infos .panel:hover {
-  //background-color: #1e2f44;
-}
-
 .home-footer {
   border-top: 2px solid #eaeaea;
   padding-top: 20px;
@@ -90,4 +86,23 @@
         height: 100% !important;
 }
 
+.jeu:hover img {
+  opacity: 0.75;
+}
 
+
+.mosaique.infos {
+  a:hover, a:link, a:visited, a:active { color: white; text-decoration: none; }
+  color: white;
+}
+
+.mosaique.infos .info-text {
+  visibility: hidden;
+}
+.mosaique.infos:hover img {
+  visibility: hidden;
+  display: none;
+}
+.mosaique.infos:hover .info-text {
+  visibility: visible;
+}

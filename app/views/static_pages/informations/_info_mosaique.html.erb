@@ -6,14 +6,16 @@
 
 
   <div class="panel transparent">
+
+    <a href="<%=informations_path(anchor: infotag) %>" title="">
     <div class="panel-heading text-center">
         <h4><%= t("#{infotag}.name").upcase %></h4>
     </div>
 
-    <a href="<%=informations_path(anchor: infotag) %>" title="<%= t("#{infotag}.mosaique-text") %>">
+
       <div class="panel-body">
-        
         <%= image_tag t("#{infotag}.logo"), class: "infologo-center" %>
+        <div class="info-text"><%= t("#{infotag}.mosaique-text") %></div>
       </div>
     </a>
   </div>
