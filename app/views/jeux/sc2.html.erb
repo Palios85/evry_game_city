@@ -1,3 +1,32 @@
-<%= render partial: 'jeux/jeu', locals: {gametag: :sc2} %>
+
+<div class="panel panel-default banniere-game">
+  <div class="panel-body">
+    <%= image_tag t("sc2.banniere"), class: "img-responsive" %>
+    <div class="game-title text-center col-md-12">
+      <h1 class="bold"><%= t("sc2.name") %></h1>
+    </div>
+  </div>
+</div>
+
+
+
+<div class="panel transparent">
+  <div class="panel-heading">
+    <h4>Règles</h4>
+  </div>
+  <div class="panel-body">
+    <h2>Tournois 16 slots sur inscriptions.</h3>
+    <big>Déroulement  sur place : </big><br />
+    <ul>
+      <li>Phase de poule en BO1</li>
+      <li>Déroulement du tournoi à partir des quarts de finales en BO3</li>
+      <li>Finale en BO5</li>
+
+  </div>
+</div>
+
+
+<%= render partial: 'jeux/jeu_subsection', locals: { gametag: :sc2, categ: :materiel} %>
+<%= render partial: 'jeux/jeu_subsection', locals: { gametag: :sc2, categ: :recompenses} %>
 
 
