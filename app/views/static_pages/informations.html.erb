@@ -4,60 +4,70 @@
   </div>
 </div-->
 
-<div class="row">
+<!--div class="row">
 
-<div class="panel transparent"> <!-- Info lan -->
-  <div class="panel-heading">
-    <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolan} %>
+<!--div class="panel transparent"> <!-- Info lan -->
+  <!--div class="panel-heading">
+    <%#= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolan} %>
   </div>
   <div class="panel-body">
     <div class="row">
       <div class="col-md-3">
-        <%= image_tag 'EGC_MASTER-mini.jpg', width: 200 %>
+        <%#= image_tag 'EGC_MASTER-mini.jpg', width: 200 %>
       </div>
       <div class="col-md-9">
-        <p><%= t("infolan.text") %></p>
-        <p><%= t("infolan.text2") %> </p>
+        <p><%#= t("infolan.text") %></p>
+        <p><%#= t("infolan.text2") %> </p>
       </div>
     </div>
   </div>
-</div>
+</div-->
 
-</div><!-- row -->
+<!--/div--><!-- row -->
 
 <div class="row">
   <div class="col-md-6 left-column">
 
+
     <div class="panel transparent"><!-- Où ? -->
       <div class="panel-heading">
-        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infolieu} %>
+        <!--div class="anchor">
+          <a name="<%#= infotag %>"> </a>
+        </div-->
+       <!--h4 class="info-title" name="<%#= infotag %>"><%#= t("#{infotag}.name") %> </h4-->
+        <h4>Déroulé</h4>
       </div>
       <div class="panel-body">
-        <p><%= t("infolieu.text") %></p>
+        <p>Samedi 25 Avril : phases de qualification<br />
+           Dimanche 26 Avril : finale</p>
       </div>
     </div>
 
-
-    <div class="panel transparent"><!-- Comment ? -->
+    <div class="panel transparent">
       <div class="panel-heading">
-        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infomoyen} %>
+        <h4>Horaires</h4>
       </div>
       <div class="panel-body">
-        <h4><%= t("infomoyen.rerd.title") %></h4>
-        <p><%= t("infomoyen.rerd.text") %></p>
-        <h4><%= t("infomoyen.route.title") %></h4>
-        <p><%= t("infomoyen.route.text") %> </p>
+        <p>Samedi 25 et Dimanche 26 Avril 2015<br />
+           De 09h00 à minuit.</p>
       </div>
     </div>
 
-    <div class="panel transparent"><!-- Quand ? -->
+    <div class="panel transparent">
       <div class="panel-heading">
-        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infodate} %>
+        <h4>Accès</h4>
       </div>
       <div class="panel-body">
-        <p><%= t("infodate.text") %></p>
+        <p><h3>Adresse :</h3> Arènes de l'Agora, 91000 Évry.<br />
+           <h3>Par le RER D :</h3>
+           Paris gare du Nord/Châtelet/Gare de Lyon direction Corbeil – Malesherbes station Evry-Courcouronnes, sortie Agora (à 5 minutes des Arènes).<br />
+           <h3>Par la route :</h3>
+           <big>A6 depuis Paris :</big> direction Lyon, sortie Evry puis direction Agora par le boulevard de l'Europe / Francilienne depuis Corbeil-Essonnes : sortie Bois Briard depuis Fleury-Mérogis, sortie Evry puis direction Agora par le boulevard de l'Europe.<br />
+           <big>Autobus TICE :</big> arrêt Gare SNCF ou Agora</p>
       </div>
     </div>
+
+
 
   </div><!-- left column-->
 
@@ -68,13 +78,26 @@
       <iframe width="350" height="450" frameborder="0" style="border:0" src="https://www.google.com/maps/embed/v1/place?q=Ar%C3%A8nes%20de%20l'Agora%2C%2091000%20Evry%2C%20France&key=AIzaSyCj5JRiau8OMBTI8Hi6Cysv7Zcdrl0Kb_I"></iframe>
     </div>
 
-    <div class="panel transparent"><!-- Combien ? -->
+    <div class="panel transparent">
       <div class="panel-heading">
-        <%= render partial: 'static_pages/informations/info_subsection', locals: {infotag: :infoprix} %>
+        <h4>Tarifs</h4>
       </div>
       <div class="panel-body">
-        <p><%= t("infoprix.text") %></p>
-        <p><%= t("infoprix.text2") %></p>
+        <p><h3>Public :</h3>
+        <h4>En prévente :</h4>
+          Plein Tarif : 15€<br />
+          Tarif réduit  - jeune (7 - 18ans inclus) : 10€<br />
+          Tarif réduit - étudiant : 10€<br />
+          Journée du samedi pour tous : 16€
+
+        <h4>A l’entrée :</h4>
+          Plein tarif : 16€<br />
+          Tarif réduit - jeune (7 - 18ans inclus) : 11€<br />
+          Tarif réduit - étudiant : 11€<br />
+          Journée du samedi pour tous : 16€
+          <h3>Lanpartie :</h3>
+          Préinsciption : 50 € par équipe 
+        </p> 
       </div>
     </div>
 
