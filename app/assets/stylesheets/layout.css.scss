@@ -75,15 +75,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 
 .hover:hover {
-  img.orange-icon { visibility: visible; }
-  img.white-icon { visibility: hidden; }
+  img.orange-icon { visibility: visible; display: block; }
+  img.white-icon { visibility: hidden; display: none; }
 }
 
 .hover {
   background-repeat: no-repeat;
   background-position: center center;
   display:block;
-  .orange-icon { visibility: hidden; }
+  img.orange-icon { visibility: hidden; display: none; }
+  img.white-icon { visibility: visible; display: block; }
 }
 
 
