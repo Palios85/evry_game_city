@@ -21,10 +21,8 @@
     <!-- Collect the nav links, forms, and other content for toggling -->
     <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
       <ul class="nav navbar-nav">
-        <!--li class="<%#= set_active("home")%>">
-          <a class="navlink" href="/"><%#= t(:home) %></a>
-        </li-->
-        <li class="dropdown <%= set_active("informations") %>" >
+
+        <!--li class="dropdown <%= set_active("informations") %>" >
           <a href="#" class="dropdown-toggle navlink" data-toggle="dropdown"
                       role="button" aria-expanded="false">
             <%= t(:informations) %><span class="caret"></span>
@@ -37,7 +35,12 @@
             <li><%= link_to t("infoprix.name"), informations_path(anchor: :infoprix), class: "anchor-link"  %></li>
             <li><%= link_to t("infoservice.name"), informations_path(anchor: :infoservice), class: "anchor-link"  %></li>
           </ul>
+        </li-->
+        <li class="<%= set_active("informations")%>">
+          <a class="navlink" href="/informations"><%= t(:informations)%></a>
         </li>
+
+
         <li class="dropdown <%= set_active("jeux") %>">
           <a href="#" class="dropdown-toggle navlink" data-toggle="dropdown"
                      role="button" aria-expanded="false">
