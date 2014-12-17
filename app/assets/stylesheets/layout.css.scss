@@ -75,15 +75,16 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
 
 .hover:hover {
-  img { visibility: hidden; }
+  img.orange-icon { visibility: visible; }
+  img.white-icon { visibility: hidden; }
 }
 
 .hover {
   background-repeat: no-repeat;
   background-position: center center;
   display:block;
+  .orange-icon { visibility: hidden; }
 }
 
-.fb-icon.hover:hover { background-image: image-url("Facebook_Menu_icon_2.png"); }
-.tw-icon.hover:hover { background-image: image-url("Twitter_Menu_icon_2.png"); }
-.igm-icon.hover:hover { background-image: image-url("Instagram_Menu_icon_2.png"); }
+
+
