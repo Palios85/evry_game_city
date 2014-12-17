@@ -1,2 +1,22 @@
 
-<%= render partial: 'static_pages/contacts/contact', locals: {contacttag: :egc} %>
+<% contacttag = :egc %>
+
+
+<div class="panel transparent">
+  <div class="panel-body text-center bold">
+    <h1 class="contact-title"><%= t("#{contacttag}.name") %> </h1>
+  </div>
+</div>
+
+
+<div class="panel transparent">
+
+  <div class="panel-heading">
+    <h4 class="contact-contact-title"><%= t(:nouscontacter) %></h4>
+  </div>
+ 
+  <div class="panel-body">
+    <p>Pour toute question concernant l’organisation de l’évènement : <%= link_to t("#{contacttag}.contact"), "mailt:" + t("#{contacttag}.contact") %></p>
+  </div>
+
+</div>

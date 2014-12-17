@@ -1,2 +1,37 @@
 
-<%= render partial: 'static_pages/contacts/contact', locals: {contacttag: :egs} %>
+<% contacttag = :egs %>
+
+
+
+<div class="panel transparent">
+  <div class="panel-body text-center bold">
+    <h1 class="contact-title"><%= t("#{contacttag}.name") %> </h1>
+  </div>
+</div>
+
+
+<div class="panel transparent">
+
+  <div class="panel-heading">
+    <h4 class="contact-presentation-title"><%= t(:presentation) %></h4>
+  </div>
+ 
+  <div class="panel-body">
+    <p><%= t("#{contacttag}.presentation")%> </p>
+  </div>
+
+</div>
+
+
+<div class="panel transparent">
+
+  <div class="panel-heading">
+    <h4 class="contact-contact-title"><%= t(:nouscontacter) %></h4>
+  </div>
+ 
+  <div class="panel-body">
+    <p>Si vous avez des questions sur l'évènement gaming, vous pouvez nous contacter sur : <%= link_to t("#{contacttag}.contact_at"), "mailto:" + t("#{contacttag}.contact_at") %><br />
+      Si vous voulez vous associer avec l'équipe qui gère l'évènement, vous pouvez nous contacter sur : <%= link_to t("#{contacttag}.partenaires_at"), "mailto:" + t("#{contacttag}.partenaires_at") %> </p>
+  </div>
+
+</div>
