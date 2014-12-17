@@ -35,9 +35,6 @@
   } 
 }
 
-.mosaique.infos .panel {
-  height: 200px;
-}
 
 .home-footer {
   border-top: 2px solid #eaeaea;
@@ -60,18 +57,6 @@
 }
 
 
-.infologo {
-  float: right;
-  margin: -11px; 
-}
-.infologo-center {
-  margin-left: auto; 
-  margin-right: auto;
-  margin-top: -5px;
-  display: block; 
-}
-
-
 .google-maps {
         position: relative;
         padding-bottom: 75%; // This is the aspect ratio
@@ -91,13 +76,19 @@
 }
 
 
+// MOSAIQUE INFOS
+
 .mosaique.infos {
   a:hover, a:link, a:visited, a:active { color: white; text-decoration: none; }
   color: white;
+  .panel {
+    height: 200px;
+  }
 }
 
 .mosaique.infos .info-text {
   visibility: hidden;
+  margin-top: 20%;
 }
 .mosaique.infos:hover img {
   visibility: hidden;
@@ -107,7 +98,12 @@
   visibility: visible;
 }
 
-
+.infologo-center {
+  margin-left: auto; 
+  margin-right: auto;
+  margin-top: -5px;
+  display: block; 
+}
 
 
 // PAGE TOURNOIS

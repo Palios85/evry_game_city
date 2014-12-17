@@ -96,7 +96,7 @@ en:
     text2: "Les spectateurs ne seront pas oubliés, avec des lots et des goddies à gagner durant l’évènement et une soirée spéciale organisée le samedi soir. Vous pourrez participer à de nombreux concours, accéder à des consoles en libre accès ou tout simplement vous balader dans la ville d’Evry à la découverte des nombreux ateliers mis en place autour des jeux vidéos."
 
   infolieu:
-    name: "Où ?"
+    name: "Ou ?"
     logo: "Where.png"
     text: "Adresse : Arènes de l'Agora, 91000 Évry."
     mosaique-text: "Arènes de l'Agora, 91000 Évry"
@@ -123,7 +123,7 @@ en:
     logo: "money.png"
     text: "En prévente : 15€ par personne"
     text2: "Sur place : 17€ par personne"
-    mosaique-text: "Prévente: 15€ - Sur place 17€"
+    mosaique-text: "Prévente: 15€ - Sur place 16€"
 
   infoservice:
     name: "Services"
