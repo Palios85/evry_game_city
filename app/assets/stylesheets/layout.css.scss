@@ -16,6 +16,10 @@ body {
   background-position: center top;
 }
 
+.bold {
+  font-family: "eurostyle-bold";
+}
+
 .container {
   max-width: 970px;
 }
@@ -80,6 +84,6 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
   display:block;
 }
 
-.fb-icon { background-image: image-url("Facebook_Menu_icon_2.png"); }
-.tw-icon { background-image: image-url("Twitter_Menu_icon_2.png"); }
-.igm-icon { background-image: image-url("Instagram_Menu_icon_2.png"); }
+.fb-icon.hover { background-image: image-url("Facebook_Menu_icon_2.png"); }
+.tw-icon.hover { background-image: image-url("Twitter_Menu_icon_2.png"); }
+.igm-icon.hover { background-image: image-url("Instagram_Menu_icon_2.png"); }
