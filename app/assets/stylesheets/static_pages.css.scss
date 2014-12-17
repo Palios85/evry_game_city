@@ -106,3 +106,25 @@
 .mosaique.infos:hover .info-text {
   visibility: visible;
 }
+
+
+
+
+// PAGE TOURNOIS
+
+.banniere-game {
+  position: relative;
+}
+
+.banniere-game .game-title {
+  position: absolute;
+  z-index: 1;
+  top: 30%; left: 0%; 
+  margin-right: auto;
+
+}
+
+
+
+
+
