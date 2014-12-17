@@ -46,6 +46,8 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 
   .navlink { height: 50px; }
 
+  li:hover a.navlink { background-color: $orange}
+
   .dropdown-menu {
     background-color: $bleu-gris;
   }
@@ -63,3 +65,21 @@ h1, .h1, h2, .h2, h3, .h3, h4, .h4 {
 .transparent.panel {
   background-color: rgba(0, 0, 0, 0.75) !important;
 }
+
+
+
+
+
+.hover:hover {
+  img { visibility: hidden; }
+}
+
+.hover {
+  background-repeat: no-repeat;
+  background-position: center center;
+  display:block;
+}
+
+.fb-icon { background-image: image-url("Facebook_Menu_icon_2.png"); }
+.tw-icon { background-image: image-url("Twitter_Menu_icon_2.png"); }
+.igm-icon { background-image: image-url("Instagram_Menu_icon_2.png"); }

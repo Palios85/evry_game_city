@@ -40,18 +40,21 @@
 }
 
 .mosaique.infos .panel:hover {
-  background-color: #1e2f44;
+  //background-color: #1e2f44;
 }
 
 .home-footer {
   border-top: 2px solid #eaeaea;
   padding-top: 20px;
   margin-top: 10px;
-
   border-color: white;
+
   .social-links {
     margin-top: 5px;
-    .social-link { float: right; }
+    .social-link {
+      float: right;
+      margin-left: 10px;
+    }
   }
   .middle-home-footer {
     border-left: 2px solid #eaeaea;
