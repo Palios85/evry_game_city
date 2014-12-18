@@ -18,7 +18,18 @@
   <%= javascript_include_tag "application", "data-turbolinks-track" => true %>
   <%= csrf_meta_tags %>
 </head>
-<body class="<%=  params[:action] == "home" ? "with-persos" : "without-persos" %>">
+
+<% background = "empty" %>
+<% if params[:action] == "home" %>
+  <%  background = "solo" %>
+<% elsif params[:action] == "presentation" %>
+  <% background = "girls" %>
+<% elsif params[:controller] == "jeux" %>
+  <% background = "duo" %>
+<% end %>
+
+
+<body class="<%= background %>">
 
   <%= render 'layouts/header' %>
 

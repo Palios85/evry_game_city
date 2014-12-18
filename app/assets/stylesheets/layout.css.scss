@@ -15,12 +15,21 @@ body {
   background-position: center top;
 }
 
-body.with-persos {
-  background-image: image-url("Site_EGC_Background2_copy.jpg"); 
+body.duo {
+  background-image: image-url("Site_EGC_Background_duo.jpg"); 
 }
-body.without-persos {
-  background-image: image-url("Site_EGC_Background3_copy.jpg"); 
+body.empty {
+  background-image: image-url("Site_EGC_Background_empty.jpg"); 
 }
+body.solo {
+  background-image: image-url("Site_EGC_Background_solo.jpg"); 
+}
+body.girls {
+  background-image: image-url("Site_EGC_Background_girls.jpg"); 
+}
+
+
+
 
 .bold {
   font-family: "eurostyle-bold";
