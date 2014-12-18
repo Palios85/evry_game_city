@@ -1,4 +1,25 @@
-.carousel-control {
-  padding-top:10%;
-  width:5%;
+#myCarousel {
+  .carousel-control {
+    padding-top:10%;
+    width:5%;
+  }
+
+  .carousel-inner {
+    padding-left: 40px;
+    padding-right: 40px;
+    
+    .mosaique-container {
+      padding: 0px;
+      margin: 0px;
+    }    
+
+  }
+
+
 }
+
+.carousel-partenaires {
+  //background-color: rgba(0, 0, 0, 0.5);
+
+}
+
