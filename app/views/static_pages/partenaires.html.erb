@@ -13,4 +13,17 @@
   </div>
 
 
+<div class="jcarousel" data-jcarousel="true">
+  <ul>
+    <% (1..8).each do |i| %>
+      <li>
+       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
+        <%#= image_tag t("partenaire-#{i}.image"), class: "center-block", alt: t("partenaire-#{i}.name") %>
+      </li>
+    <% end  %>
+
+  </ul>
+</div>
+
+
 
