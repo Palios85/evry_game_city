@@ -14,6 +14,7 @@
 //= require jquery_ujs
 //= require_tree .
 
+
 $(document).ready(function() {
 
   //Click on a menu item switches the "active" status from the current to this one
@@ -28,6 +29,14 @@ $(document).ready(function() {
           $(".navbar-toggle").click()
       });
   }
+
+
+  // Multiple items carousel
+
+
+
+
+
 
 });
 
