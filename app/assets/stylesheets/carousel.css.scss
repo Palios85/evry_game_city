@@ -1,7 +1,11 @@
+
+
+//Carousel partenaires
+
 #myCarousel {
   .carousel-control {
-    padding-top:10%;
-    width:5%;
+   // padding-top:10%;
+   // width:5%;
   }
 
   .item {
@@ -20,6 +24,20 @@
 
 .carousel-partenaires {
   //background-color: rgba(0, 0, 0, 0.5);
-
 }
 
+
+
+// carousel en général
+
+.carousel {
+  .control {
+    position: absolute;
+    top: 50%;
+    margin-top: -29px;
+    margin-left: -18px;
+  }
+}
+.carousel-control {
+  width: 40px;
+}
