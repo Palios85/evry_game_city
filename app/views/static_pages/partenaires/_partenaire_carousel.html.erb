@@ -2,6 +2,9 @@
 
 <% nbpart = 8 %>
 <% nb_display = 6 %>
+
+<div class="carousel-partenaires">
+
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
     <% (1..nbpart).each do |i| %>
@@ -21,6 +24,12 @@
     <% end %>
   </div><!-- carousel inner -->
 
-  <a class="left carousel-control" href="#myCarousel" data-slide="prev">‹</a>
-  <a class="right carousel-control" href="#myCarousel" data-slide="next">›</a>
+  <a class="left carousel-control" href="#myCarousel" data-slide="prev">
+    <span class="glyphicon glyphicon-chevron-left"></span>
+  </a>
+  <a class="right carousel-control" href="#myCarousel" data-slide="next">
+    <span class="glyphicon glyphicon-chevron-right"></span>
+  </a>
+</div>
+
 </div>
