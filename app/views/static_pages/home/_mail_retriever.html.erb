@@ -1,0 +1,9 @@
+<%= form_for @adress do |a| %> 
+  <div class="input-group">
+    <%= a.email_field :email, class: "form-control", placeholder: "Entrez votre email" %>  
+    <span class="input-group-btn">
+       <%= a.submit "Go !", class: "btn"%>
+    </span>
+  </div>
+<% end %>
+

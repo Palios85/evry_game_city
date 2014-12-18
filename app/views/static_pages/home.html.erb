@@ -1,3 +1,24 @@
+<!-- Modal -->
+<div class="modal fade" id="myModal" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+  <div class="modal-dialog">
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal"><spani class="close" aria-hidden="true">&times;</span><span class="sr-only">Close</span></button>
+        <!--h4 class="modal-title" id="myModalLabel">Modal title</h4-->
+          <%= image_tag "LOGO_LONG_BLACK_EGC-mini.png", height: 75 %>
+      </div>
+      <div class="modal-body">
+        <%= image_tag "POPUP_site_egc.jpg", class: "img-responsive image-text" %>
+      </div>
+      <div class="modal-footer">
+        <!--button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        <button type="button" class="btn btn-primary">Save changes</button-->
+        <%= render "static_pages/home/mail_retriever" %>
+      </div>
+    </div>
+  </div>
+</div>
+
   <div class="row">
     <div class="col-md-12">
       <%= image_tag "Header_Home.png", class: "img-responsive" %>
@@ -27,8 +48,10 @@
     <div class="col-md-4" id="right-mosaique">
       
       <div class="row">
-        <div class="col-md-12 mosaique">
-          <%= image_tag "Site_EGC_Billeterie.jpg", class: "center-block" %>
+        <div class="col-md-12 mosaique billeterie">
+          <a href="#" data-toggle="modal" data-target="#myModal">
+            <%= image_tag "Site_EGC_Billeterie.jpg", class: "center-block" %>
+          </a>
         </div>
       </div>
 
@@ -117,16 +140,8 @@
 
 
     <div class="col-md-5 hidden-xs middle-home-footer" style="color: black;">
-     <%= image_tag "Newsletter_bottom.png", class: "img-responsive center-block" %>
-     
-     <%= form_for @adress do |a| %> 
-       <div class="input-group">
-         <%= a.text_field :email, class: "form-control", placeholder: "Entrez votre email" %>  
-         <span class="input-group-btn">
-           <%= a.submit "Go !", class: "btn"%>
-         </span>
-       </div>
-     <% end %>
+     <%= image_tag "Newsletter_bottom.png", class: "img-responsive center-block" %>     
+     <%= render "static_pages/home/mail_retriever" %>
     </div>
 
 

@@ -106,4 +106,21 @@ h1, .h1, h2, .h2, h3, .h3 {
 }
 
 
+.modal-content {
+  background-color: black;
+  color: black;
+  .close {
+    margin-top: 2px;
+    color: white;
+    font-size: 50px;
+    opacity: 0.50;
+  }
+  .close:hover {
+    opacity: 0.75;
+  }
+  .modal-header {
+    padding-top : 0px;
+    padding-bottom : 0px;
+  }
 
+}
