@@ -118,15 +118,15 @@
 
     <div class="col-md-5 hidden-xs middle-home-footer" style="color: black;">
      <%= image_tag "Newsletter_bottom.png", class: "img-responsive center-block" %>
-     <%= form_for @mail do |m| %> 
+     
+     <%= form_for @adress do |a| %> 
        <div class="input-group">
-         <%= m.text_field :email, class: "form-control", placeholder: "Entrez votre email" %>  
+         <%= a.text_field :email, class: "form-control", placeholder: "Entrez votre email" %>  
          <span class="input-group-btn">
-           <%= m.submit "Go !", class: "btn"%>
+           <%= a.submit "Go !", class: "btn"%>
          </span>
        </div>
      <% end %>
-
     </div>
 
 

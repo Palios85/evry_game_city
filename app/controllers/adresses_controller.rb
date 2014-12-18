@@ -1,7 +1,8 @@
-class MailsController < ApplicationController
+
+class AdressesController < ApplicationController
   def create
-    @mail = Mail.new(mails_params)
-    if @mail.save
+    @adress = Adress.new(adresses_params)
+    if @adress.save
       flash[:success] = "Email enregistré"
       redirect_to root_path
     else
@@ -11,7 +12,7 @@ class MailsController < ApplicationController
   end
 
   private
-    def mails_params
-      params.require(:mail).permit(:email)
+    def adresses_params
+      params.require(:adress).permit(:email)
     end 
 end
