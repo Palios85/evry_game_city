@@ -164,28 +164,17 @@ en:
     url: "http://www.evry.fr/"
 
   partenaire-4:
-    name: "5w Creative Network"
-    image:  "Partenaires_LOGOS_5WCreativeNetwork.png"
-    url: "http://www.5wproject.com/"
-
-  partenaire-5:
     name: "ENSIIE"
     image: "Partenaires_LOGOS_ENSIIE_copy.png"
     url: "http://www.ensiie.fr/"
 
-  partenaire-6:
+  partenaire-5:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
 
-  partenaire-7:
+  partenaire-6:
     name: "Ville d'Évry"
     image: "Partenaires_LOGOS_EVRY.png"
     url: "http://www.evry.fr/"
-
-  partenaire-8:
-    name: "5w Creative Network"
-    image:  "Partenaires_LOGOS_5WCreativeNetwork.png"
-    url: "http://www.5wproject.com/"
-
  
