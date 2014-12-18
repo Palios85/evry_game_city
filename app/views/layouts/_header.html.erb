@@ -60,6 +60,14 @@
             <li><a href="#">One more separated link</a></li-->
           </ul>
         </li>
+
+        <li class="<%= set_active("partenaires")%>">
+          <a class="navlink" href="/partenaires"><%= t(:partenaires) %></a>
+        </li>
+        <li class="<%= set_active("presse")%>">
+          <a class="navlink" href="/presse">Presse</a>
+        </li>
+
         <li class="dropdown <%= set_active("contact_egc") || set_active("contact_egs") %>" >
           <a href="#" class="dropdown-toggle navlink" data-toggle="dropdown"
                       role="button" aria-expanded="false">
@@ -70,12 +78,7 @@
             <li><%= link_to t('egs.name'), contact_egs_path %></li>
           </ul>
         </li>
-        <li class="<%= set_active("partenaires")%>">
-          <a class="navlink" href="/partenaires"><%= t(:partenaires) %></a>
-        </li>
-        <li class="<%= set_active("presse")%>">
-          <a class="navlink" href="/presse">Presse</a>
-        </li>
+
       </ul>
 
 
