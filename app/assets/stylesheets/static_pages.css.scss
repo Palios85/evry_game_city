@@ -95,14 +95,21 @@
 .mosaique.infos {
   a:hover, a:link, a:visited, a:active { color: white; text-decoration: none; }
   color: white;
-  .panel {
-    height: 200px;
+  .panel-body {
+    height: 140px;
   }
 }
 
 .mosaique.infos .info-text {
   visibility: hidden;
-  margin-top: 20%;
+  //display: inline-block;
+  //vertical-align: middle;
+  position: absolute;
+  top: 50%;
+  margin-top: 0px;
+  margin-left: -61px;
+  height: 44px;
+  width: 122px; 
 }
 .mosaique.infos:hover img {
   visibility: hidden;
