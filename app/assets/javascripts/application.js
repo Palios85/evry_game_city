@@ -32,14 +32,14 @@ $(document).ready(function() {
 
 
   // Multiple items carousel
-    $('#myCarousel').carousel({
+   /* $('#myCarousel').carousel({
 	interval: 10000
 	})
-    
-    $('#myCarousel').on('slid.bs.carousel', function() {
+    */
+   /* $('#myCarousel').on('slid.bs.carousel', function() {
     	//alert("slid");
 	});
-    
+    */
     
 /*$('.carousel .item').each(function(){
   var next = $(this).next();
