@@ -4,16 +4,16 @@
     width:5%;
   }
 
-  .carousel-inner {
+  .item {
     padding-left: 40px;
-    padding-right: 40px;
+    padding-right: 40px;    
     
-    .mosaique-container {
-      padding: 0px;
-      margin: 0px;
-    }    
-
   }
+
+  .mosaique-container {
+    padding: 0px;
+    margin: 0px;
+  }    
 
 
 }
