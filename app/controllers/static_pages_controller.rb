@@ -1,5 +1,6 @@
 class StaticPagesController < ApplicationController
   def home
+    @mail = Mail.new()
   end
 
   def presentation

@@ -80,17 +80,17 @@
 
   <div class="row home-footer">
 
-    <div class="col-md-5">
+    <div class="col-md-4">
       <div class="panel transparent">
 
         <div class="panel-heading">
           NOUS SUIVRE 
         </div>
         <div class="panel-body row">
-          <div class="col-md-8">
+          <div class="col-md-6">
             <small>Retrouvez le meilleur de notre communauté</small>
           </div>
-          <div class="col-md-4 row social-links">
+          <div class="col-md-6 row social-links">
             <div class="social-link">
               <a href="https://www.facebook.com/pages/Evry-Games-City/744555588972740" target="_blank" class="fb-icon hover">
                 <%= image_tag "Facebook_Menu_icon_1.png", class: "white-icon" %>
@@ -115,13 +115,24 @@
       </div>
     </div>
 
-    <div class="col-md-4 hidden-xs middle-home-footer">
 
+    <div class="col-md-5 hidden-xs middle-home-footer" style="color: black;">
+     <%= image_tag "Newsletter_bottom.png", class: "img-responsive center-block" %>
+     <%= form_for @mail do |m| %> 
+       <div class="input-group">
+         <%= m.text_field :email, class: "form-control", placeholder: "Entrez votre email" %>  
+         <span class="input-group-btn">
+           <%= m.submit "Go !", class: "btn"%>
+         </span>
+       </div>
+     <% end %>
 
     </div>
+
 
     <div class="col-md-3">
       <%= image_tag "LOGO_BLACK_EGC.png", height: "80", class: "center-block" %>
       <div class="text-center small">© EvryGamesCity</div>
     </div>
+
   </div>
