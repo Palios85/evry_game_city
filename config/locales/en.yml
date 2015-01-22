@@ -164,17 +164,23 @@ en:
     url: "http://www.evry.fr/"
 
   partenaire-4:
+    name: "Masters du Jeu Vidéo"
+    image: "Partenaires_LOGOS_mastersJV_2.png"
+    url: "http://www.mastersjeuvideo.org/"
+
+  partenaire-5:
     name: "ENSIIE"
     image: "Partenaires_LOGOS_ENSIIE_copy.png"
     url: "http://www.ensiie.fr/"
 
-  partenaire-5:
+  partenaire-6:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
 
-  partenaire-6:
+  partenaire-7:
     name: "Ville d'Évry"
     image: "Partenaires_LOGOS_EVRY.png"
     url: "http://www.evry.fr/"
- 
+
+
