@@ -55,10 +55,10 @@ footer {
     padding-top: 10px;
 
     border-top: 2px solid #eaeaea;
-    color: #707070;
     * { margin-right: 20px; }
     a:hover, a:link, a:visited, a:active { color: white; }
-    
+    text-shadow: 1px 1px #707070;    
+
     td.ml { margin-left: 10px !important; }
   }
 }
