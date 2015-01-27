@@ -9,6 +9,7 @@ EvryGameCity::Application.routes.draw do
   match '/presse', to: 'static_pages#presse', via: 'get'
   match '/plan_du_site', to: 'static_pages#plan_du_site', via: 'get'
   match '/presentation', to: 'static_pages#presentation', via: 'get'
+  match '/informations_legales', to: 'static_pages#infos_legales', via: 'get'
 
 
   get "jeux/csgo"

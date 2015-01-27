@@ -23,4 +23,8 @@ class StaticPagesController < ApplicationController
 
   def plan_du_site
   end
+
+  def infos_legales
+  end
+  
 end
