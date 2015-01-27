@@ -123,7 +123,8 @@ en:
     logo: "money.png"
     text: "En prévente : 15€ par personne"
     text2: "Sur place : 17€ par personne"
-    mosaique-text: "Prévente: 15€ - Sur place 16€"
+    mosaique-text: "Billeterie"
+    mosaique-text2: "Coming Soon"
 
   infoservice:
     name: "Services"

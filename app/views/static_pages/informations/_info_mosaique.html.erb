@@ -15,7 +15,12 @@
 
       <div class="panel-body text-center">
         <%= image_tag t("#{infotag}.logo"), class: "infologo-center" %>
-        <span class="info-text"><%= t("#{infotag}.mosaique-text") %></span>
+        <span class="info-text">
+           <%= t("#{infotag}.mosaique-text") %>
+           <% if infotag == :infoprix %>
+             <br /><%= t("#{infotag}.mosaique-text2") %>
+           <% end %>
+        </span>
       </div>
     </a>
   </div>
