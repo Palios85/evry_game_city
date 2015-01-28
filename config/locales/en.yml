@@ -154,7 +154,7 @@ en:
     image: "Partenaires_LOGOS_ENSIIE_copy.png"
     url: "http://www.ensiie.fr/"
 
-  partenaire-2:
+  partenaire-4:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
@@ -164,7 +164,7 @@ en:
     image: "Partenaires_LOGOS_EVRY_bis.png"
     url: "http://www.evry.fr/"
 
-  partenaire-4:
+  partenaire-2:
     name: "Masters du Jeu Vidéo"
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"

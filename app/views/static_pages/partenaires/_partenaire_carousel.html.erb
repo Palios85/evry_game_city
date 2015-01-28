@@ -1,6 +1,6 @@
 
 
-<% nbpart = 4 %>
+<% nbpart = 3 %>
 <% nb_display = 6 %>
 
 <div class="carousel-partenaires">
@@ -10,6 +10,11 @@
     <% (1..nbpart).each do |i| %>
       <div class="item <%= "active" if i == 1 %>">
         <div class="row">
+
+          <div class="col-md-3">
+          <!-- pour centrer les 3 partenaires -->
+          </div>
+
           <%# display_a = (i..nbpart).to_a.concat((1..(i - 1)).to_a).take(nb_display) %>
           <% display_a = (1..nbpart) %>
           <% display_a.each do |j| %>
@@ -20,6 +25,12 @@
               <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:j } %>
             </div>
           <% end %>
+
+
+
+
+
+
         </div>
       </div>
     <% end %>
