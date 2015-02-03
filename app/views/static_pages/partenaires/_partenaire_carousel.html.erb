@@ -1,6 +1,6 @@
 
 
-<% nbpart = 5 %>
+<% nbpart = 6 %>
 <% nb_display = 6 %>
 
 <div class="carousel-partenaires">
@@ -11,9 +11,9 @@
       <div class="item <%= "active" if i == 1 %>">
         <div class="row">
 
-          <div class="col-md-1">
+          <!--div class="col-md-1"-->
           <!-- pour centrer les 3 partenaires -->
-          </div>
+          <!--/div-->
 
           <%# display_a = (i..nbpart).to_a.concat((1..(i - 1)).to_a).take(nb_display) %>
           <% display_a = (1..nbpart) %>

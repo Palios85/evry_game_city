@@ -154,11 +154,6 @@ en:
     image: "Partenaires_LOGOS_ENSIIE_copy.png"
     url: "http://www.ensiie.fr/"
 
-  partenaire-6:
-    name: "BDE ENSIIE"
-    image: "Partenaires_LOGOS_BDE.png"
-    url: "http://bde.iiens.net/web/"
-
   partenaire-3:
     name: "Ville d'Évry"
     image: "Partenaires_LOGOS_EVRY_bis.png"
@@ -179,4 +174,13 @@ en:
     image: "Partenaires_LOGOS_capdigital.png"
     url: "http://www.capdigital.com/"
 
+  partenaire-6:
+    name: "joypad"
+    image: "Partenaires_LOGOS_joypad.png"
+    url: "http://joypad.fr"
 
+
+  partenaire-7:
+    name: "BDE ENSIIE"
+    image: "Partenaires_LOGOS_BDE.png"
+    url: "http://bde.iiens.net/web/"
