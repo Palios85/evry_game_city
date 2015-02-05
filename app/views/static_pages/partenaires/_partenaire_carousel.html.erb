@@ -1,13 +1,14 @@
 
 
-<% nbpart = 6 %>
+<% nbpart = 8 %>
 <% nb_display = 6 %>
+<% nb_lignes =(nbpart/nb_display).round %>
 
 <div class="carousel-partenaires">
 
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
-    <% (1..nbpart).each do |i| %>
+    <% (0..nb_lignes).each do |i| %>
       <div class="item <%= "active" if i == 1 %>">
         <div class="row">
 
@@ -16,20 +17,20 @@
           <!--/div-->
 
           <%# display_a = (i..nbpart).to_a.concat((1..(i - 1)).to_a).take(nb_display) %>
-          <% display_a = (1..nbpart) %>
-          <% display_a.each do |j| %>
-            <div class="col-md-2 mosaique-container">
-              <%#= image_tag t("partenaire-#{j}.image"),
-                            class: "img-responsive center-block",
-                            alt: t("partenaire-#{j}.name") %>               
-              <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:j } %>
-            </div>
+          <%# display_a = (1..nbpart) %>
+
+          <% if i == nb_lignes %>
+            <% display_a = ((i*nb_display +1)..nbpart) %>
+          <% else %> 
+            <% display_a = ((i*nb_display + 1)..((i+1)*nb_display))  %>
           <% end %>
 
 
-
-
-
+          <% display_a.each do |j| %>
+            <div class="col-md-2 mosaique-container">
+              <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:j } %>
+            </div>
+          <% end %>
 
         </div>
       </div>

@@ -179,8 +179,18 @@ en:
     image: "Partenaires_LOGOS_joypad.png"
     url: "http://joypad.fr"
 
-
   partenaire-7:
+    name: "BEGEEK"
+    image: "Partenaires_LOGOS_begeek.png"
+    url: "http://www.begeek.fr/"
+
+  partenaire-8:
+    name: "AFJV"
+    image: "Partenaires_LOGOS_afjv.png"
+    url: "http://www.afjv.com/"
+
+
+  partenaire-9:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
