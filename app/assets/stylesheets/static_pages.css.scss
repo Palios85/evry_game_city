@@ -48,7 +48,7 @@
   border-top: 2px solid #eaeaea;
   padding-top: 20px;
   margin-top: 10px;
-  border-color: white;
+  border-color: #eee;
 
   .social-links {
     margin-top: 10px;
@@ -165,5 +165,8 @@
   hr {
     margin-top: 10px;
     margin-bottom: 10px;
+  }
+  h4 {
+    color: #eee;
   }
 }
