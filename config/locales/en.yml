@@ -189,8 +189,12 @@ en:
     image: "Partenaires_LOGOS_afjv.png"
     url: "http://www.afjv.com/"
 
-
   partenaire-9:
+    name: "Gameblog"
+    image: "Partenaires_LOGOS_gameblog.png"
+    url: "http://www.gameblog.fr/"
+
+  partenaire-10:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
