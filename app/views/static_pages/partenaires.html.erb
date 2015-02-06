@@ -5,14 +5,35 @@
   </div>
 </div>
 
+<% nbpart = 9 %>
+<% nbProducteurs = 2 %>
+<% nbOfficiels = 2 %>
 
-  <!--div class="row partenaires">
-   <% (1..4).each do |i| %>
+
+
+<div class="row">
+  <% (1..9).each do |i| %>
+
+    <div class="col-md-2 mosaique-container">
       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
-   <% end  %>
-  </div-->
+    </div>
 
-<%= render "static_pages/partenaires/partenaire_carousel" %>
+    <% if i == nbProducteurs %>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bold"><h4>Partenaires Officiels</h4></div>
+    <% elsif i == nbProducteurs + nbOfficiels %>
+      </div>
+      <div class="row">
+        <div class="col-md-12 bold"><h4>Relais Médias</h4></div>
+    <% end %>
+
+  <% end  %>
+
+
+</div>
+
+<%#= render "static_pages/partenaires/partenaire_carousel" %>
 
 
 

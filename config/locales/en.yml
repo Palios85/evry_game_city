@@ -154,27 +154,27 @@ en:
     image: "Partenaires_LOGOS_ENSIIE_copy.png"
     url: "http://www.ensiie.fr/"
 
-  partenaire-3:
+  partenaire-2:
     name: "Ville d'Évry"
     image: "Partenaires_LOGOS_EVRY_bis.png"
     url: "http://www.evry.fr/"
 
-  partenaire-2:
+  partenaire-6:
     name: "Masters du Jeu Vidéo"
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
-  partenaire-4:
+  partenaire-5:
     name: "JCDecaux"
     image: "Partenaires_LOGOS_JCDecaux.png"
     url: "http://www.jcdecaux.fr/"
 
-  partenaire-5:
+  partenaire-4:
     name: "Cap-Digital"
     image: "Partenaires_LOGOS_capdigital.png"
     url: "http://www.capdigital.com/"
 
-  partenaire-6:
+  partenaire-3:
     name: "joypad"
     image: "Partenaires_LOGOS_joypad.png"
     url: "http://joypad.fr"
