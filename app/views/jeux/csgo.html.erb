@@ -1,32 +1,89 @@
+<div class="row">
 
-<div class="panel panel-default banniere-game">
-  <div class="panel-body">
-    <%= image_tag t("csgo.banniere"), class: "img-responsive" %>
-    <div class="game-title text-center col-md-12">
-      <h1 class="bold"><%= t("csgo.name") %></h1>
-    </div>
-  </div>
+     <div class="col-md-12">
+	<div class="panel panel-default banniere-game">
+	  <div class="panel-body">
+	    <%= image_tag t("csgo.banniere"), class: "img-responsive" %>
+	    <div class="game-title text-center col-md-12">
+	      <h1 class="bold"><%= t("csgo.name") %></h1>
+	    </div>
+	  </div>
+	</div>
+      </div>
+
+</div>
+
+<div class="row">
+
+	<div class="col-md-6"><!-- LEFT COLUMN -->
+
+          <!-- informations -->
+          <div class="panel panel-iframe">
+	      <iframe class="embed-responsive-item" width="100%" height="380" src="//www.toornament.com/widget/tournaments/54d621a2150ba0424a8b45e0/information?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
+          </div>
+
+          <!-- participants -->
+          <div class="panel panel-iframe">
+	    <iframe class="embed-responsive-item" width="100%" height="380" src="//www.toornament.com/widget/tournaments/54d621a2150ba0424a8b45e0/participants?_locale=en_GB" frameborder="0" allowfullscreen></iframe>
+          </div> 
+
+	</div>
+
+	<div class="col-md-6"><!-- RIGHT COLUMN -->
+
+	<div class="panel transparent" style="height: 315px;">
+	  <div class="panel-heading text-center">
+	    <h4>REGLES</h4>
+	  </div>
+	  <div class="panel-body">
+	    <h4>Tournoi 16 slots avec des qualifications online.</h4>
+	    <h4 class="orange">Déroulement  sur place : </h4>
+	    <ul>
+	      <li>Phase de poule en BO1</li>
+	      <li>Déroulement du tournoi à partir des quarts de finales en BO3</li>
+	      <li>Finale en BO5</li>
+	    </ul>
+
+	    Pour plus de précisions, merci de vous référencer aux document des Masters Français du Jeu Vidéo disponibles <%= link_to "ici", "http://www.mastersjeuvideo.org/files/rules/Annexe_CSGO_2014-2015.pdf", target: :blank %>
+	  </div>
+	</div>
+
+	  <div class="panel transparent">
+	    <div class="panel-heading text-center">
+	      <h4 class="recompenses">RECOMPENSES</h4>
+	    </div>
+	    <div class="panel-body">
+	Cash prize de 5000 euros à répartir entre les 3 premiers.
+	    </div>
+	  </div>
+
+
+	  <div class="panel transparent">
+	    <div class="panel-heading text-center">
+	      <h4 class="materiel">MATERIEL</h4>
+	    </div>
+	    <div class="panel-body">
+	      <h4 class="orange">Les joueurs doivent amener :</h4>
+	      <div class="tabule">- Leur ordinateur personnel (fixe ou portable)</div>
+	      <div class="tabule">- Leurs périphériques (clavier, souris, casque)</div>
+	      <div class="tabule">- Un câble RJ45 (câblage droit) de 3m minimum</div>
+	      <br />
+	      <p>Tout joueur doit respecter son propre matériel, le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement.</p>
+	    </div>
+	  </div>
+
+
+	</div>
+
+
 </div>
 
 
+<div class="row"><!-- bracket -->
+	<div class="col-md-12">
+          <div class="panel panel-iframe">
+	    <iframe class="embed-responsive-item" width="100%" height="650" src="//www.toornament.com/widget/tournaments/54d621a2150ba0424a8b45e0/stages/1?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
+          </div>
+	</div>
 
-<div class="panel transparent">
-  <div class="panel-heading text-center">
-    <h4>REGLES</h4>
-  </div>
-  <div class="panel-body">
-    <h4>Tournoi 16 slots avec des qualifications online.</h4>
-    <h4 class="orange">Déroulement  sur place : </h4>
-    <ul>
-      <li>Phase de poule en BO1</li>
-      <li>Déroulement du tournoi à partir des quarts de finales en BO3</li>
-      <li>Finale en BO5</li>
-    </ul>
-
-    Pour plus de précisions, merci de vous référencer aux document des Masters Français du Jeu Vidéo disponibles <%= link_to "ici", "http://www.mastersjeuvideo.org/files/rules/Annexe_CSGO_2014-2015.pdf", target: :blank %>
-  </div>
 </div>
-
-
-<%= render partial: 'jeux/jeu_subsection', locals: { gametag: :csgo, categ: :materiel} %>
-<%= render partial: 'jeux/jeu_subsection', locals: { gametag: :csgo, categ: :recompenses} %>
