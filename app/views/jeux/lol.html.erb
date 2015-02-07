@@ -1,55 +1,91 @@
+<div class="row">
 
+     <div class="col-md-12">
+	<div class="panel panel-default banniere-game">
+	  <div class="panel-body">
+	    <%= image_tag t("lol.banniere"), class: "img-responsive" %>
+	    <div class="game-title text-center col-md-12">
+	      <h1 class="bold"><%= t("lol.name") %></h1>
+	    </div>
+	  </div>
+	</div>
+      </div>
 
-<div class="panel panel-default banniere-game">
-  <div class="panel-body">
-    <%= image_tag t("lol.banniere"), class: "img-responsive" %>
-    <div class="game-title text-center col-md-12">
-      <h1 class="bold"><%= t("lol.name") %></h1>
-    </div>
-  </div>
-</div>
-
-<div class="col-md-6">
-   <iframe class="embed-responsive-item" width="100%" height="315" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/information?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
-</div>
-
-
-<div class="col-md-6">
-  <div class="panel transparent" style="height: 315px;">
-    <div class="panel-heading text-center">
-      <h4>REGLES</h4>
-    </div>
-    <div class="panel-body">
-      <h4>Tournois 16 slots sur inscriptions.</h4>
-      <h4 class="orange">Déroulement  sur place : </h4>
-      <ul>
-        <li>Phase de poule en BO1</li>
-        <li>Déroulement du tournoi à partir des quarts de finales en BO3</li>
-        <li>Finale en BO5</li>
-      </ul>
-
-      Pour plus de précisions, merci de vous référencer aux document des Masters Français du Jeu Vidéo disponibles <%= link_to "ici", "http://www.mastersjeuvideo.org/files/rules/Annexe_LoL_2014-2015.pdf", target: :blank %>
-
-    </div>
-  </div>
 </div>
 
 
-<div class="col-md-4">
-  <%= render partial: 'jeux/jeu_subsection', locals: { gametag: :lol, categ: :recompenses} %>
+<div class="row">
+
+	<div class="col-md-6"><!-- LEFT COLUMN -->
+
+          <!-- informations -->
+          <div class="panel panel-iframe">
+	      <iframe class="embed-responsive-item" width="100%" height="380" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/information?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
+          </div>
+
+          <!-- participants -->
+          <div class="panel panel-iframe">
+	    <iframe class="embed-responsive-item" width="100%" height="380" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/participants?_locale=en_GB" frameborder="0" allowfullscreen></iframe>
+          </div> 
+
+	</div>
+
+
+	<div class="col-md-6"><!-- RIGHT COLUMN -->
+
+	  <div class="panel transparent" style="height: 315px;">
+	    <div class="panel-heading text-center">
+	      <h4>REGLES</h4>
+	    </div>
+	    <div class="panel-body">
+	      <h4>Tournois 16 slots sur inscriptions.</h4>
+	      <h4 class="orange">Déroulement  sur place : </h4>
+	      <ul>
+		<li>Phase de poule en BO1</li>
+		<li>Déroulement du tournoi à partir des quarts de finales en BO3</li>
+		<li>Finale en BO5</li>
+	      </ul>
+	      Pour plus de précisions, merci de vous référencer aux document des Masters Français du Jeu Vidéo disponibles <%= link_to "ici", "http://www.mastersjeuvideo.org/files/rules/Annexe_LoL_2014-2015.pdf", target: :blank %>
+	    </div>
+	  </div>
+
+
+	  <div class="panel transparent">
+	    <div class="panel-heading text-center">
+	      <h4 class="recompenses">RECOMPENSES</h4>
+	    </div>
+	    <div class="panel-body">
+	Cash prize de 2000 euros à répartir entre les 3 premiers.
+	    </div>
+	  </div>
+
+
+	  <div class="panel transparent">
+	    <div class="panel-heading text-center">
+	      <h4 class="materiel">MATERIEL</h4>
+	    </div>
+	    <div class="panel-body">
+	      <h4 class="orange">Les joueurs doivent amener :</h4>
+	      <div class="tabule">- Leur ordinateur personnel (fixe ou portable)</div>
+	      <div class="tabule">- Leurs périphériques (clavier, souris, casque)</div>
+	      <div class="tabule">- Un câble RJ45 (câblage droit) de 3m minimum</div>
+	      <br />
+	      <p>Tout joueur doit respecter son propre matériel, le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement.</p>
+	    </div>
+	  </div>
+
+
+	</div>
+
+
 </div>
 
 
-<div class="col-md-8">
-  <%= render partial: 'jeux/jeu_subsection', locals: { gametag: :lol, categ: :materiel} %>
-</div>
+<div class="row"><!-- bracket -->
+	<div class="col-md-12">
+          <div class="panel panel-iframe">
+	    <iframe class="embed-responsive-item" width="100%" height="650" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/stages/1?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
+          </div>
+	</div>
 
-
-<div class="col-md-6">
-  <iframe class="embed-responsive-item" width="100%" height="315" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/participants?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
-</div>
-
-
-<div class="col-md-6">
-  <iframe class="embed-responsive-item" width="100%" height="315" src="//www.toornament.com/widget/tournaments/547df84b140ba0ea048b458e/stages/1?_locale=en_GB" frameborder="0" allowfullscreen></iframe> 
 </div>
