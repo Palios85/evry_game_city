@@ -5,14 +5,14 @@
   </div>
 </div>
 
-<% nbpart = 9 %>
+<% nbpart = 10 %>
 <% nbProducteurs = 2 %>
-<% nbOfficiels = 2 %>
+<% nbOfficiels = 3 %>
 
 
 
 <div class="row partenaires-row">
-  <% (1..9).each do |i| %>
+  <% (1..nbpart).each do |i| %>
 
     <div class="col-md-2 mosaique-container">
       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>

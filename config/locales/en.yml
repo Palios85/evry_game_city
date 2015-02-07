@@ -164,7 +164,7 @@ en:
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
-  partenaire-5:
+  partenaire-10:
     name: "JCDecaux"
     image: "Partenaires_LOGOS_JCDecaux.png"
     url: "http://www.jcdecaux.fr/"
@@ -194,7 +194,12 @@ en:
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
 
-  partenaire-10:
+  partenaire-5:
+    name: "Xbox"
+    image: "Partenaires_LOGOS_xbox.png"
+    url: "Partenaires_LOGOS_xbox.png"
+
+  partenaire-11:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
