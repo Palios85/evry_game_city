@@ -5,9 +5,10 @@
   </div>
 </div>
 
-<% nbpart = 10 %>
+<% nbpart = 11 %>
 <% nbProducteurs = 2 %>
 <% nbOfficiels = 3 %>
+<% nbNonOfficiels = 4 %>
 
 
 
@@ -32,6 +33,14 @@
           <h4>Partenaires</h4>
           <hr />
         </div>
+    <% elsif i == nbProducteurs + nbOfficiels + nbNonOfficiels %>
+      </div>
+      <div class="row relais-media-row">
+        <div class="col-md-12 bold">
+          <h4>Relais Médias</h4>
+          <hr />
+        </div>
+
     <% end %>
 
   <% end  %>
