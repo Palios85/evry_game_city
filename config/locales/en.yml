@@ -197,7 +197,7 @@ en:
   partenaire-5:
     name: "Xbox"
     image: "Partenaires_LOGOS_xbox.png"
-    url: "Partenaires_LOGOS_xbox.png"
+    url: "http://www.xbox.com/"
 
   partenaire-11:
     name: "BDE ENSIIE"
