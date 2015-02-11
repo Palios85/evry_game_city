@@ -5,17 +5,17 @@
   </div>
 </div>
 
-<% nbpart = 11 %>
+<% nbpart = 13 %>
 <% nbProducteurs = 2 %>
 <% nbOfficiels = 4 %>
-<% nbNonOfficiels = 3 %>
+<% nbNonOfficiels = 5 %>
 
 
 
 <div class="row partenaires-row">
   <% (1..nbpart).each do |i| %>
 
-    <div class="col-md-2 mosaique-container">
+    <div class="col-md-2 col-xs-6 mosaique-container">
       <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:i} %>
     </div>
 
@@ -23,21 +23,21 @@
       </div>
       <div class="row partenaires-row">
         <div class="col-md-12 bold">
-          <h4>Partenaires Officiels</h4>
+          <h4 class="text-shadow">Partenaires Officiels</h4>
           <hr />
         </div>
     <% elsif i == nbProducteurs + nbOfficiels %>
       </div>
       <div class="row partenaires-row">
         <div class="col-md-12 bold">
-          <h4>Partenaires</h4>
+          <h4 class="text-shadow">Partenaires</h4>
           <hr />
         </div>
     <% elsif i == nbProducteurs + nbOfficiels + nbNonOfficiels %>
       </div>
       <div class="row partenaires-row">
         <div class="col-md-12 bold">
-          <h4>Relais Médias</h4>
+          <h4 class="text-shadow">Relais Médias</h4>
           <hr />
         </div>
 

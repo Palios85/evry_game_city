@@ -179,7 +179,7 @@ en:
     image: "Partenaires_LOGOS_joypad.png"
     url: "http://joypad.fr"
 
-  partenaire-10:
+  partenaire-12:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
@@ -189,7 +189,7 @@ en:
     image: "Partenaires_LOGOS_afjv.png"
     url: "http://www.afjv.com/"
 
-  partenaire-11:
+  partenaire-13:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
@@ -204,8 +204,20 @@ en:
     image: "Partenaires_LOGOS_evry2.png"
     url: "http://www.evry2.com/"
 
+  partenaire-10:
+    name: "Fireworks Command Ship"
+    image: "Partenaires_LOGOS_fcs.png"
+    url: "http://www.fireworkscommandship.com/"
 
-  partenaire-12:
+  partenaire-11:
+    name: "Respect Zone"
+    image: "Partenaires_LOGOS_respectzone.png"
+    url: "http://respectzone.org/fr/"
+
+
+
+
+  partenaire-0:
     name: "BDE ENSIIE"
     image: "Partenaires_LOGOS_BDE.png"
     url: "http://bde.iiens.net/web/"
