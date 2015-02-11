@@ -1,6 +1,6 @@
 
 
-<% nbpart = 11 %>
+<% nbpart = 13 %>
 <% nb_display = 6 %>
 <% nb_lignes =(nbpart/nb_display).round %>
 
@@ -8,16 +8,9 @@
 
 <div id="myCarousel" class="carousel slide">
   <div class="carousel-inner">
-    <% (0..nb_lignes).each do |i| %>
+    <% (0..(nb_lignes) ).each do |i| %>
       <div class="item <%= "active" if i == 0 %>">
         <div class="row">
-
-          <!--div class="col-md-1"-->
-          <!-- pour centrer les 3 partenaires -->
-          <!--/div-->
-
-          <%# display_a = (i..nbpart).to_a.concat((1..(i - 1)).to_a).take(nb_display) %>
-          <%# display_a = (1..nbpart) %>
 
           <% if i == nb_lignes %>
             <% display_a = ((i*nb_display +1)..nbpart) %>
@@ -27,7 +20,7 @@
 
 
           <% display_a.each do |j| %>
-            <div class="col-md-2 mosaique-container">
+            <div class="col-md-2 col-xs-6 mosaique-container">
               <%= render partial: 'static_pages/partenaires/partenaire_mosaique', locals: { i:j } %>
             </div>
           <% end %>
