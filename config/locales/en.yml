@@ -226,34 +226,44 @@ en:
     image: "Partenaires_LOGOS_JCDecaux.png"
     url: "http://www.jcdecaux.fr/"
 
-
-
   partenaire-16:
+    name: "Roccat"
+    image: "Partenaires_LOGOS_roccat.png"
+    url: "http://www.roccat.org/"
+
+
+
+  partenaire-17:
     name: "evry2"
     image: "Partenaires_LOGOS_evry2.png"
     url: "http://www.evry2.com/"
 
-  partenaire-17:
+  partenaire-18:
     name: "Fireworks Command Ship"
     image: "Partenaires_LOGOS_fcs.png"
     url: "http://www.fireworkscommandship.com/"
 
-  partenaire-18:
+  partenaire-19:
     name: "Masters du Jeu Vidéo"
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
 
-  partenaire-19:
+
+  partenaire-20:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
 
-  partenaire-20:
+  partenaire-21:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
 
+  partenaire-22:
+    name: "Virgin Radio"
+    image: "Partenaires_LOGOS_virginradio.png"
+    url: "http://www.virginradio.fr/"
 
 
 
