@@ -182,54 +182,55 @@ en:
     url: "http://www.xbox.com/"
 
   partenaire-7:
+    name: "Roccat"
+    image: "Partenaires_LOGOS_roccat.png"
+    url: "http://www.roccat.org/"
+
+  partenaire-8:
     name: "Bandai Namco"
     image: "Partenaires_LOGOS_bandainamco.png"
     url: "http://www.bandainamcogames.com/"
 
-  partenaire-8:
+  partenaire-9:
     name: "joypad"
     image: "Partenaires_LOGOS_joypad.png"
     url: "http://joypad.fr"
 
-  partenaire-9:
+  partenaire-10:
     name: "Capcom"
     image: "Partenaires_LOGOS_capcom.png"
     url: "http://www.capcom.com/"
 
-  partenaire-10:
+  partenaire-11:
     name: "Cap-Digital"
     image: "Partenaires_LOGOS_capdigital.png"
     url: "http://www.capdigital.com/"
 
-  partenaire-11:
+  partenaire-12:
     name: "AFJV"
     image: "Partenaires_LOGOS_afjv.png"
     url: "http://www.afjv.com/"
  
-  partenaire-12:
+  partenaire-13:
     name: "Capital Games"
     image: "Partenaires_LOGOS_capitalgames.png"
     url: "http://capital-games.org/"
 
-  partenaire-13:
+  partenaire-14:
     name: "Respect Zone"
     image: "Partenaires_LOGOS_respectzone.png"
     url: "http://respectzone.org/fr/"
 
-  partenaire-14:
+  partenaire-15:
     name: "Société Générale"
     image: "Partenaires_LOGOS_societegenerale.png"
     url: "https://www.societegenerale.fr/"
 
-  partenaire-15:
+  partenaire-16:
     name: "JCDecaux"
     image: "Partenaires_LOGOS_JCDecaux.png"
     url: "http://www.jcdecaux.fr/"
 
-  partenaire-16:
-    name: "Roccat"
-    image: "Partenaires_LOGOS_roccat.png"
-    url: "http://www.roccat.org/"
 
 
 
