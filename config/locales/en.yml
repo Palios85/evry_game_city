@@ -159,60 +159,98 @@ en:
     image: "Partenaires_LOGOS_EVRY_bis.png"
     url: "http://www.evry.fr/"
 
-  partenaire-8:
-    name: "Masters du Jeu Vidéo"
-    image: "Partenaires_LOGOS_mastersJV_2.png"
-    url: "http://www.mastersjeuvideo.org/"
 
-  partenaire-5:
-    name: "JCDecaux"
-    image: "Partenaires_LOGOS_JCDecaux.png"
-    url: "http://www.jcdecaux.fr/"
-
-  partenaire-4:
-    name: "Cap-Digital"
-    image: "Partenaires_LOGOS_capdigital.png"
-    url: "http://www.capdigital.com/"
-
-  partenaire-6:
-    name: "joypad"
-    image: "Partenaires_LOGOS_joypad.png"
-    url: "http://joypad.fr"
-
-  partenaire-12:
-    name: "BEGEEK"
-    image: "Partenaires_LOGOS_begeek.png"
-    url: "http://www.begeek.fr/"
-
-  partenaire-7:
-    name: "AFJV"
-    image: "Partenaires_LOGOS_afjv.png"
-    url: "http://www.afjv.com/"
-
-  partenaire-13:
-    name: "Gameblog"
-    image: "Partenaires_LOGOS_gameblog.png"
-    url: "http://www.gameblog.fr/"
 
   partenaire-3:
     name: "Xbox"
     image: "Partenaires_LOGOS_xbox.png"
     url: "http://www.xbox.com/"
 
+  partenaire-4:
+    name: "Cap-Digital"
+    image: "Partenaires_LOGOS_capdigital.png"
+    url: "http://www.capdigital.com/"
+
+  partenaire-5:
+    name: "JCDecaux"
+    image: "Partenaires_LOGOS_JCDecaux.png"
+    url: "http://www.jcdecaux.fr/"
+
+  partenaire-6:
+    name: "joypad"
+    image: "Partenaires_LOGOS_joypad.png"
+    url: "http://joypad.fr"
+
+  partenaire-7:
+    name: "Bandai Namco"
+    image: "Partenaires_LOGOS_bandainamco.png"
+    url: "http://www.bandainamcogames.com/"
+
+  partenaire-8:
+    name: "Capcom"
+    image: "Partenaires_LOGOS_capcom.png"
+    url: "http://www.capcom.com/"
+
   partenaire-9:
+    name: "Capital Games"
+    image: "Partenaires_LOGOS_capitalgames.png"
+    url: "http://capital-games.org/"
+
+  partenaire-10:
+    name: "Game One"
+    image: "Partenaires_LOGOS_gameone.png"
+    url: "http://www.gameone.net/"
+
+  partenaire-11:
+    name: "Konami"
+    image: "Partenaires_LOGOS_konami.png"
+    url: "https://www.konami.com/"
+
+  partenaire-12:
+    name: "Sony PS4"
+    image: "Partenaires_LOGOS_sonyps4.png"
+    url: "https://www.playstation.com/"
+
+
+
+  partenaire-13:
+    name: "AFJV"
+    image: "Partenaires_LOGOS_afjv.png"
+    url: "http://www.afjv.com/"
+
+  partenaire-14:
+    name: "Masters du Jeu Vidéo"
+    image: "Partenaires_LOGOS_mastersJV_2.png"
+    url: "http://www.mastersjeuvideo.org/"
+
+  partenaire-15:
     name: "evry2"
     image: "Partenaires_LOGOS_evry2.png"
     url: "http://www.evry2.com/"
 
-  partenaire-10:
+  partenaire-16:
     name: "Fireworks Command Ship"
     image: "Partenaires_LOGOS_fcs.png"
     url: "http://www.fireworkscommandship.com/"
 
-  partenaire-11:
+  partenaire-17:
     name: "Respect Zone"
     image: "Partenaires_LOGOS_respectzone.png"
     url: "http://respectzone.org/fr/"
+
+
+
+  partenaire-18:
+    name: "BEGEEK"
+    image: "Partenaires_LOGOS_begeek.png"
+    url: "http://www.begeek.fr/"
+
+  partenaire-19:
+    name: "Gameblog"
+    image: "Partenaires_LOGOS_gameblog.png"
+    url: "http://www.gameblog.fr/"
+
+
 
 
 
