@@ -26,5 +26,7 @@ class StaticPagesController < ApplicationController
 
   def infos_legales
   end
-  
+ 
+  def streams
+  end 
 end
