@@ -231,37 +231,41 @@ en:
     image: "Partenaires_LOGOS_JCDecaux.png"
     url: "http://www.jcdecaux.fr/"
 
-
-
-
   partenaire-17:
+    name: "Warner games"
+    image: "Partenaires_LOGOS_warner.png"
+    url: "http://www.warnerbros.com/"
+
+
+
+  partenaire-18:
     name: "evry2"
     image: "Partenaires_LOGOS_evry2.png"
     url: "http://www.evry2.com/"
 
-  partenaire-18:
+  partenaire-19:
     name: "Fireworks Command Ship"
     image: "Partenaires_LOGOS_fcs.png"
     url: "http://www.fireworkscommandship.com/"
 
-  partenaire-19:
+  partenaire-20:
     name: "Masters du Jeu Vidéo"
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
 
 
-  partenaire-20:
+  partenaire-21:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
 
-  partenaire-21:
+  partenaire-22:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
 
-  partenaire-22:
+  partenaire-23:
     name: "Virgin Radio"
     image: "Partenaires_LOGOS_virginradio.png"
     url: "http://www.virginradio.fr/"
