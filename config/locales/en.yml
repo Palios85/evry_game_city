@@ -262,14 +262,19 @@ en:
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
-
-
   partenaire-23:
+    name: "Ouest Games"
+    image: "Partenaires_LOGOS_OG.png"
+    url: "http://ouestgames.com/"
+
+
+
+  partenaire-24:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
 
-  partenaire-24:
+  partenaire-25:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
