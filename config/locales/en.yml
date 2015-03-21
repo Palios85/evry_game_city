@@ -284,6 +284,10 @@ en:
     image: "Partenaires_LOGOS_melty.png"
     url: "http://www.melty.fr/"
 
+  partenaire-27:
+    name: "le Portail du Jeu Vidéo"
+    image: "Partenaires_LOGOS_PDJV.png"
+    url: "http://www.leportaildujeuvideo.fr/"
 
 
 
