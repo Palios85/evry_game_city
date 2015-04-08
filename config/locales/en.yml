@@ -250,54 +250,60 @@ en:
     image: "Partenaires_LOGOS_ubisoft.png"
     url: "https://www.ubisoft.com/fr-FR/"
 
-
   partenaire-21:
+    name: "Meltdown"
+    image: "Partenaires_LOGOS_meltdown.png"
+    url: "http://www.meltdown.bar/paris"
+
+
+
+  partenaire-22:
     name: "evry2"
     image: "Partenaires_LOGOS_evry2.png"
     url: "http://www.evry2.com/"
 
-  partenaire-22:
+  partenaire-23:
     name: "Fireworks Command Ship"
     image: "Partenaires_LOGOS_fcs.png"
     url: "http://www.fireworkscommandship.com/"
 
-  partenaire-23:
+  partenaire-24:
     name: "Masters du Jeu Vidéo"
     image: "Partenaires_LOGOS_mastersJV_2.png"
     url: "http://www.mastersjeuvideo.org/"
 
-  partenaire-24:
+  partenaire-25:
     name: "Ouest Games"
     image: "Partenaires_LOGOS_OG.png"
     url: "http://ouestgames.com/"
 
-  partenaire-25:
+  partenaire-26:
     name: "War Legend"
     image: "Partenaires_LOGOS_warlegend.png"
     url: "http://www.warlegend.net/"
 
-  partenaire-26:
+  partenaire-27:
     name: "Eclypsia"
     image: "Partenaires_LOGOS_eclypsia.png"
     url: "http://www.eclypsia.com/"
 
 
-  partenaire-27:
+  partenaire-28:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
 
-  partenaire-28:
+  partenaire-29:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
 
-  partenaire-29:
+  partenaire-30:
     name: "Melty"
     image: "Partenaires_LOGOS_melty.png"
     url: "http://www.melty.fr/"
 
-  partenaire-30:
+  partenaire-31:
     name: "le Portail du Jeu Vidéo"
     image: "Partenaires_LOGOS_PDJV.png"
     url: "http://www.leportaildujeuvideo.fr/"
