@@ -182,3 +182,46 @@
 .text-shadow {
     text-shadow: 1px 1px #707070;  
 }
+
+
+// PAGE PRESENTATION
+.image-deroulante {
+  .texte-deroulant {
+    padding: 10px 10px 0px 10px;
+    margin: 0 10px 10px 10px;
+    position: relative;    
+  }
+  .image-titre {
+    cursor: pointer;
+  }
+  .image-titre:hover {
+    opacity: 0.75;
+  }
+}
+
+.panel-deroulant {
+  position: relative;
+  .panel-body {
+    position: relative;    
+  } 
+  .panel-heading {
+    cursor: pointer;
+  }
+  .panel-heading:hover {
+    opacity: 0.75;
+  }
+}
+
+
+@media all and (min-width: 768px) {
+.soiree {
+  background-image: image-url("image_soiree_3.jpg");
+  background-size:100% auto;
+  margin-top: 20px;
+  
+  .soiree_texte {
+    margin-top: 90px;
+    padding-left: 30px;
+  }
+}
+}
