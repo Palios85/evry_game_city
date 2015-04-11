@@ -13,12 +13,16 @@ $orange: #ea6d2e;
 // HOME PAGE
 
 .billeterie-panel {  
+  a {
+    background-image: -webkit-linear-gradient(#fff,#dedede);
+    background-color: linear-gradient(#fff,#dedede);
+  }
+
   .default-billeterie {
     margin-bottom: 20px;
   }
   a:hover {
     color: $orange;
-    background-color: black;
   }
 }
 
