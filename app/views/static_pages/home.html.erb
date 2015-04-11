@@ -32,7 +32,8 @@
       <div class="row">
         <div class="col-md-12 mosaique slideshow">
           <!--Slideshow-->
-          <%= render partial: 'static_pages/home/carousel' %>
+          <%#= render partial: 'static_pages/home/carousel' %>
+            <%= render 'static_pages/home/billeterie' %>
         </div>
       </div>
 
@@ -48,14 +49,13 @@
 
     <div class="col-md-4" id="right-mosaique">
       
-      <div class="row">
+      <!--div class="row">
         <div class="col-md-12 mosaique billeterie">
           <a href="#" data-toggle="modal" data-target="#myModal">
-            <%#= image_tag "Site_EGC_Billeterie.jpg", class: "center-block" %>
-            <%= render 'static_pages/home/billeterie' %>
+            <%#= render 'static_pages/home/billeterie' %>
           </a>
         </div>
-      </div>
+      </div-->
 
       <div class="row">
         <div class="col-md-12 mosaique twitter center-block">

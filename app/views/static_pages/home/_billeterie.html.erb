@@ -1,23 +1,13 @@
-<div class="billeterie-panel">
-  <% lien_reservation = 'http://www.moxity.com/events/evry-games-city-25-et-26-avril-2015/ticketing/select?colors[]=ffffff&colors[]=eeeeee&colors[]=666666&colors[]=B70D1A&colors[]=ffffff&colors[]=B70D1A&colors[]=FF0013&' %>
 
-  <div class="acheter-places text-center">
-    <a onclick="window.open('<%= lien_reservation %>', 'Billetterie', 'height=600, width=640, toolbar=no, menubar=no, location=yes, resizable=yes, scrollbars=yes, status=yes');return false;" href='<%= lien_reservation %>' style="padding:0; background-image:none;display:block; height:50px; overflow:hidden">
+<div class="">
+	<div class="billeterie-panel">
+	  <% lien_reservation = 'http://www.moxity.com/events/evry-games-city-25-et-26-avril-2015/ticketing/select?colors[]=ffffff&colors[]=eeeeee&colors[]=666666&colors[]=B70D1A&colors[]=ffffff&colors[]=B70D1A&colors[]=FF0013&' %>
+	  <%= link_to "BILLETERIE SPECTATEURS", lien_reservation, target: "_blank", class:"btn btn-default btn-block default-billeterie bold", style: "font-size: 18px;" %>
 
-      <img src="<%= image_path('BoutonBilleterie_304x100_refait.jpg')%>" width="304" height="100" alt="" border="0" onmouseover="this.style.marginTop='-50px'" onmouseout="this.style.marginTop='0px'" />
-  
-  </a>
+	  <% lien_conferences = "http://www.moxitycom/events/conference_2/ticketing/select?colors[]=ffffff&colors[]=eeeeee&colors[]=666666&colors[]=B70D1A&colors[]=ffffff&colors[]=B70D1A&colors[]=FF0013&" %>
+	  <%= link_to "BILLETERIE CONFERENCES", lien_conferences, target: "_blank", class:"btn btn-default btn-block default-billeterie bold", style: "font-size: 18px;" %>
 
-
-  </div>
-
-  <% lien_invitation = 'http://www.moxity.com/events/evry-games-city-25-et-26-avril-2015-invitation/ticketing/select?colors[]=ffffff&colors[]=eeeeee&colors[]=666666&colors[]=B70D1A&colors[]=ffffff&colors[]=B70D1A&colors[]=FF0013&' %>
-  <div class="codes-reservation text-center">
-
-    <a onclick="window.open('<%= lien_invitation %>', 'Billetterie', 'height=600, width=640, toolbar=no, menubar=no, location=yes, resizable=yes, scrollbars=yes, status=yes');return false;" href='<%= lien_invitation %>' style="padding:0; background-image:none;display:block; height:50px; overflow:hidden">
-
-      <img src="<%= image_path('BoutonInvitations_304x100_refait.jpg')%>" width="304" height="100" alt="" border="0" onmouseover="this.style.marginTop='-50px'" onmouseout="this.style.marginTop='0px'" />
-    </a>
-  </div>
-
+	  <% lien_invitation = 'http://www.moxity.com/events/evry-games-city-25-et-26-avril-2015-invitation/ticketing/select?colors[]=ffffff&colors[]=eeeeee&colors[]=666666&colors[]=B70D1A&colors[]=ffffff&colors[]=B70D1A&colors[]=FF0013&' %>
+	  <%= link_to "MON CODE INVITATION", lien_invitation, target: "_blank", class:"btn btn-default btn-block bold", style: "font-size: 18px;" %>
+	</div>
 </div>

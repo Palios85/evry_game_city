@@ -2,6 +2,9 @@
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
 
+$orange: #ea6d2e;
+
+
 .anchor {
   margin-top: -60px;
   float: left; 
@@ -10,10 +13,12 @@
 // HOME PAGE
 
 .billeterie-panel {  
-  .acheter-places {
-    border-bottom: 1px solid black;
+  .default-billeterie {
+    margin-bottom: 20px;
   }
-  .codes-reservation {
+  a:hover {
+    color: $orange;
+    background-color: black;
   }
 }
 
