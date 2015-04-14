@@ -287,23 +287,29 @@ en:
     image: "Partenaires_LOGOS_eclypsia.png"
     url: "http://www.eclypsia.com/"
 
-
   partenaire-28:
+    name: "L'étudiant"
+    image: "Partenaires_LOGOS_letudiant.png"
+    url: "http://www.etudiantdeparis.fr/"
+
+
+
+  partenaire-29:
     name: "BEGEEK"
     image: "Partenaires_LOGOS_begeek.png"
     url: "http://www.begeek.fr/"
 
-  partenaire-29:
+  partenaire-30:
     name: "Gameblog"
     image: "Partenaires_LOGOS_gameblog.png"
     url: "http://www.gameblog.fr/"
 
-  partenaire-30:
+  partenaire-31:
     name: "Melty"
     image: "Partenaires_LOGOS_melty.png"
     url: "http://www.melty.fr/"
 
-  partenaire-31:
+  partenaire-32:
     name: "le Portail du Jeu Vidéo"
     image: "Partenaires_LOGOS_PDJV.png"
     url: "http://www.leportaildujeuvideo.fr/"
