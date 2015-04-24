@@ -1,6 +1,6 @@
 EvryGameCity::Application.routes.draw do
 
-  resources :streams
+  resources :streams, only: [:index, :show]
 
   root 'static_pages#home'
 

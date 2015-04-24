@@ -9,6 +9,7 @@ class StreamsController < ApplicationController
   end
 
   def show
+    @streams = Stream.all
     respond_with(@stream)
   end
 

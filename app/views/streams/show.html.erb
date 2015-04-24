@@ -1,19 +1,8 @@
-<p id="notice"><%= notice %></p>
 
-<p>
-  <strong>Href:</strong>
-  <%= @stream.href %>
-</p>
+<%= render partial: "streams/header_stream" %>
+<iframe frameborder="0" width="100%" height="500" src="<%=@stream.href%>" class="embed-responsive-item" allowfullscreen ></iframe>
 
-<p>
-  <strong>Name:</strong>
-  <%= @stream.name %>
-</p>
 
-<p>
-  <strong>Jeu:</strong>
-  <%= @stream.jeu %>
-</p>
 
-<%= link_to 'Edit', edit_stream_path(@stream) %> |
-<%= link_to 'Back', streams_path %>
+
+

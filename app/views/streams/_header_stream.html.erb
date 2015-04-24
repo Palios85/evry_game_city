@@ -1,0 +1,19 @@
+<% @stream ||= "" %>
+
+<div class="panel transparent">
+  <div class="panel-body text-center bold">
+    <h1>STREAMS</h1>
+  </div>
+</div>
+<div class="row">
+  <div class="col-md-12 stream-navbar">
+      <ul class="nav nav-tabs">
+        <% @streams.each do |stream| %>  
+          <li role="presentation" class="stream_li">
+            <%= link_to stream.name + " | " + t("#{stream.jeu}.mini_name"), stream, class: @stream == stream ? "active_stream" : "stream"%>
+          </li>
+        <% end %>
+
+      </ul>
+  </div>
+</div>
