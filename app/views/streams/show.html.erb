@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>Href:</strong>
+  <%= @stream.href %>
+</p>
+
+<p>
+  <strong>Name:</strong>
+  <%= @stream.name %>
+</p>
+
+<p>
+  <strong>Jeu:</strong>
+  <%= @stream.jeu %>
+</p>
+
+<%= link_to 'Edit', edit_stream_path(@stream) %> |
+<%= link_to 'Back', streams_path %>

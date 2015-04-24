@@ -1,5 +1,7 @@
 EvryGameCity::Application.routes.draw do
 
+  resources :streams
+
   root 'static_pages#home'
 
   match '/partenaires', to: 'static_pages#partenaires', via: 'get'
@@ -10,7 +12,7 @@ EvryGameCity::Application.routes.draw do
   match '/plan_du_site', to: 'static_pages#plan_du_site', via: 'get'
   match '/presentation', to: 'static_pages#presentation', via: 'get'
   match '/informations_legales', to: 'static_pages#infos_legales', via: 'get'
-  match '/streams', to: 'static_pages#streams', via: 'get'
+  #match '/streams', to: 'static_pages#streams', via: 'get'
 
 
   get "jeux/csgo"
