@@ -46,6 +46,9 @@ en:
 ########
 # Jeux #
 ########
+  all:
+    mini_name: "Officiel"
+
   csgo: 
     name: "Counter Strike : Global Offensive"
     mini_name: "CS:GO" 
