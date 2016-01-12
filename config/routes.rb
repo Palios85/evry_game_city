@@ -17,8 +17,10 @@ EvryGameCity::Application.routes.draw do
 
   get "jeux/csgo"
   get "jeux/lol"
-  get "jeux/sc2"
+  get "jeux/cod"
   get "jeux/hs"
+  get "jeux/hots"
+  get "jeux/sfv"
 
   
   resources :adresses, only: [:create]

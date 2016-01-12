@@ -92,6 +92,39 @@ en:
     arbre: "TEXTE ARBRE"
     banniere: "banniere_hs_v2.jpg"
     icon: "icon-hs.jpg"
+    
+  cod: 
+    name: "Call Of Duty : Black Ops 3"
+    mini_name: "COD:BO3"
+    regles: "TEXTE REGLES"
+    materiel: "Les joueurs inscrits pour le tournois COD:BO3 n’auront pas besoin de matériel. Tout joueur doit respecter le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash Prize de 1000 euros à répartir entre les 3 premiers."
+    inscription: "TEXTE INSCRIPTIONS"
+    arbre: "TEXTE ARBRE"
+    banniere: "banniere_cod.jpg"
+    icon: "icon-cod.jpg"
+    
+  sfv: 
+    name: "Street Fighter V"
+    mini_name: "SFV"
+    regles: "TEXTE REGLES"
+    materiel: "Les joueurs inscrits pour le tournois Street Fighter n’auront pas besoin de matériel. Tout joueur doit respecter le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash Prize de 1000 euros à répartir entre les 3 premiers."
+    inscription: "TEXTE INSCRIPTIONS"
+    arbre: "TEXTE ARBRE"
+    banniere: "banniere_sfv.png"
+    icon: "icon-sfv.jpg"
+    
+  hots: 
+    name: "Heroes of the Storm"
+    mini_name: "hots"
+    regles: "TEXTE REGLES"
+    materiel: "Les joueurs inscrits pour le tournois Heroes of the Storm n’auront pas besoin de matériel. Tout joueur doit respecter le matériel des autres joueurs, ainsi que le matériel mis à sa disposition sous peine de se faire exclure de l'événement. Une équipe de sécurité se tiendra à votre disposition afin de garantir le bon déroulement de l'événement."
+    recompenses: "Cash Prize de 1000 euros à répartir entre les 3 premiers."
+    inscription: "TEXTE INSCRIPTIONS"
+    arbre: "TEXTE ARBRE"
+    banniere: "banniere_hots.jpg"
+    icon: "icon-hots.jpg"
 
 
 ################
@@ -111,8 +144,8 @@ en:
   infodate:
     name: "DATE"
     logo: "When.png"
-    text: "Le 25 – 26 Avril 2015 de 09h à 00h le Samedi et le Dimanche."
-    mosaique-text: "Samedi et dimanche 25-26 Avril 2015"
+    text: "Le 16 – 17 Avril 2016 de 09h à 22h le Samedi et de 09h à 19h le Dimanche."
+    mosaique-text: "Samedi et dimanche 16-17 Avril 2016"
 
   infomoyen:
     name: "ACCES"
@@ -144,7 +177,7 @@ en:
   egs:
     name: "Staff LAN"
     presentation: "XXX"
-    contact_at: "contact@ensiiegameshow.com"
+    contact_at: "contact@theesportacademy.com"
     partenaires_at: "partenaire@ensiiegameshow.com"
 
   egc: 

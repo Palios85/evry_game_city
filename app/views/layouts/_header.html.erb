@@ -52,8 +52,10 @@
           <ul class="dropdown-menu" role="menu">
             <li><%= link_to t('csgo.name'), jeux_csgo_path %></li>
             <li><%= link_to t('lol.name'), jeux_lol_path %></li>
-            <li><%= link_to t('sc2.name'), jeux_sc2_path %></li>
+            <li><%= link_to t('cod.name'), jeux_cod_path %></li>
             <li><%= link_to t('hs.name'), jeux_hs_path %></li>
+            <li><%= link_to t('hots.name'), jeux_hots_path %></li>
+            <li><%= link_to t('sfv.name'), jeux_sfv_path %></li>
             <!--li class="divider"></li>
             <li><a href="#">Separated link</a></li>
             <li class="divider"></li>
@@ -61,9 +63,7 @@
           </ul>
         </li>
 
-        <li class="<%= set_active("streams")%>">
-          <a class="navlink" href="/streams/<%=Stream.last.id%>">STREAMS</a>
-        </li>
+        
         <li class="<%= set_active("partenaires")%>">
           <a class="navlink" href="/partenaires"><%= t(:partenaires) %></a>
         </li>
