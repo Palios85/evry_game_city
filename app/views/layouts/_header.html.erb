@@ -36,48 +36,27 @@
             <li><%= link_to t("infoservice.name"), informations_path(anchor: :infoservice), class: "anchor-link"  %></li>
           </ul>
         </li-->
-        <li class="<%= set_active("presentation")%>">
-          <a class="navlink" href="/presentation">EVENEMENT</a>
+        <li class="<%= set_active("discovering")%>">
+          <a class="navlink" href="/discovering">DISCOVERING ZONE</a>
+        </li>
+        <li class="<%= set_active("playing")%>">
+          <a class="navlink" href="/playing">PLAYING ZONE</a>
+        </li>
+        <li class="<%= set_active("gaming")%>">
+          <a class="navlink" href="/gaming">GAMING ZONE</a>
+        </li>
+        <li class="<%= set_active("learning")%>">
+          <a class="navlink" href="/learning">LEARNING ZONE</a>
         </li>
         <li class="<%= set_active("informations")%>">
           <a class="navlink" href="/informations"><%= t(:informations)%></a>
         </li>
-
-
-        <li class="dropdown <%= set_active("jeux") %>">
-          <a href="#" class="dropdown-toggle navlink" data-toggle="dropdown"
-                     role="button" aria-expanded="false">
-            Tournois<span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><%= link_to t('lol.name'), jeux_lol_path %></li>
-            <li><%= link_to t('hs.name'), jeux_hs_path %></li>
-            <li><%= link_to t('sfv.name'), jeux_sfv_path %></li>
-            <!--li class="divider"></li>
-            <li><a href="#">Separated link</a></li>
-            <li class="divider"></li>
-            <li><a href="#">One more separated link</a></li-->
-          </ul>
-        </li>
-
         
-        <li class="<%= set_active("partenaires")%>">
-          <a class="navlink" href="/partenaires"><%= t(:partenaires) %></a>
-        </li>
         <li class="<%= set_active("presse")%>">
           <a class="navlink" href="/presse">Presse</a>
         </li>
 
-        <li class="dropdown <%= set_active("contact_egc") || set_active("contact_egs") %>" >
-          <a href="#" class="dropdown-toggle navlink" data-toggle="dropdown"
-                      role="button" aria-expanded="false">
-            <%= t(:contact) %><span class="caret"></span>
-          </a>
-          <ul class="dropdown-menu" role="menu">
-            <li><%= link_to t('egc.name'), contact_egc_path %></li>
-            <li><%= link_to t('egs.name'), contact_egs_path %></li>
-          </ul>
-        </li>
+        
 
       </ul>
 

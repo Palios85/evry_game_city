@@ -5,6 +5,10 @@ EvryGameCity::Application.routes.draw do
   root 'static_pages#home'
 
   match '/partenaires', to: 'static_pages#partenaires', via: 'get'
+  match '/discovering', to: 'static_pages#discovering', via: 'get'
+  match '/gaming', to: 'static_pages#gaming', via: 'get'
+  match '/learning', to: 'static_pages#learning', via: 'get'
+  match '/playing', to: 'static_pages#playing', via: 'get'
   match '/informations', to: 'static_pages#informations', via: 'get'
   match '/contact_egc', to: 'static_pages#contact_egc', via: 'get'
   match '/contact_egs', to: 'static_pages#contact_egs', via: 'get'

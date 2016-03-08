@@ -36,14 +36,16 @@
             <%#= render 'static_pages/home/billeterie' %>
         <!--</div>-->
       </div>
+<p>
+  Evry Games City c’est le rendez-vous annuel « so gaming » de la culture numérique et du jeu vidéo en ile France.<br />
+  Porté par le succès de la première édition, Evry Games City 2 revient les 16 et 17 Avril prochain aux Arènes de l’Agora, pour deux jours de programmation exceptionnelle.<br />
+  Entre nouveautés des éditeurs, création des studios indépendants, innovations technologiques, tournois        
+  e-sports, et masterclass dédiées à la découverte et au partage de connaissance, Evry Games City 2 a pour 
+  ambition de proposer la plus belle et la plus riche des expériences gaming en Ile de France.
+  
+  
+</p>
 
-      <div class="row">
-
-        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :lol} %>
-        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :hs} %>
-        <%= render partial: "static_pages/home/mosaique_jeu", locals: { gametag: :sfv} %>
-
-      </div>
     </div><!-- col-md-8 left-mosaique -->
 
     <div class="col-md-4" id="right-mosaique">
@@ -88,12 +90,7 @@
   </div>
 
 
-  <div class="row youtube">
-    <div class="col-md-12 youtube-container embed-responsive-16by9">
-      <iframe class="embed-responsive-item" style="width: 100%; height: 400px" src="https://www.youtube.com/embed/ZoysSBhJqeY" frameborder="0" allowfullscreen></iframe>
-
-    </div>
-  </div>
+  
 
 
   <div class="row infos">
@@ -107,9 +104,9 @@
     <div class="col-md-12" style="border-top: 2px solid #eaeaea;"></div>
   </div>
 
-  <div class="row partenaires">
-    <%= render "static_pages/partenaires/partenaire_carousel" %>
-  </div>
+  <!-- <div class="row partenaires">
+    <%#= render "static_pages/partenaires/partenaire_carousel" %>
+  </div> -->
   <!-- div class="row partenaires">
     <%#= render partial: 'static_pages/home/partenaires_carousel' %>
   </div-->
