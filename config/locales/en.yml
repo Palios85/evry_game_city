@@ -161,10 +161,9 @@ en:
   infoprix:
     name: "TARIFS"
     logo: "money.png"
-    text: "En prévente : 7€ par personne"
-    text2: "Sur place : 8€ par personne"
-    mosaique-text: "Billeterie"
-    mosaique-text2: "Coming Soon"
+    text: "Evénement gratuit"
+    mosaique-text: "Evénement"
+    mosaique-text2: "Gratuit !"
 
   infoservice:
     name: "Services"
